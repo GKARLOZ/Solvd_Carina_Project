@@ -1,0 +1,40 @@
+[2023-07-18 10:47:31] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-18 10:47:31] [1] [INFO] TEST [automation-course-demo - testGetEmails] STARTED at [03:47:31 2023-07-18]
+[2023-07-18 10:47:31] [1] [INFO] Request method:	GET
+Request URI:	http://graph.facebook.com/v17.0%2F%2Fme?fields=email&access_token=EAAONtw5zyuUBAM3kEyHZAa95O8XSQkhrmZC4i8t7ZCXgtuZCDZBoXoie8VQjOY8UpYDZBt9GXKVnVM0C1kx1ZCcpU93zi9JoKE3OaDf6qGWR50ScTJF3BOZAKz7vlJvZB4SPUceB318YxXg72buXW5Nq9XaidW4Hw6BjaC2ZAxWZAA29ujmzPFs2ZB76
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+ETag: "a3aeca4b71cf71d0b5f381553883785406ecb8f2"
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+cross-origin-resource-policy: cross-origin
+x-app-usage: {"call_count":11,"total_cputime":0,"total_time":2}
+Access-Control-Allow-Origin: *
+facebook-api-version: v17.0
+Strict-Transport-Security: max-age=15552000; preload
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-fb-request-id: AO15GlxfVL4KDvmY3gQdUud
+x-fb-trace-id: BZKMaP8f3dD
+x-fb-rev: 1007857343
+X-FB-Debug: 2+USLvOCxeuUf9o7c6CIVy9tYi5j5OmTkpEJwzVRXH2LD8iu6D8sfDoOnXULrVY79EWh99/y7us36lNB76Sbmw==
+Date: Tue, 18 Jul 2023 10:47:31 GMT
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+Content-Length: 66
+
+{
+    "email": "charlie77testing@gmail.com",
+    "id": "113326638496255"
+}
+
+[2023-07-18 10:47:31] [1] [INFO] TEST [automation-course-demo - testGetEmails] PASSED at [03:47:31 2023-07-18]

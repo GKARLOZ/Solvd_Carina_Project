@@ -1,0 +1,93 @@
+[2023-07-18 02:44:15] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-18 02:44:15] [1] [INFO] TEST [automation-course-demo - testCreateUser] STARTED at [07:44:15 2023-07-18]
+[2023-07-18 02:44:16] [1] [INFO] Base properties loaded: api/users/user.properties
+[2023-07-18 02:44:17] [1] [INFO] Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "nphmijcf",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "slikjkgj",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    }
+]
+HTTP/1.1 201 Created
+Date: Tue, 18 Jul 2023 14:44:17 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 573
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1689691481
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/users/11
+X-Content-Type-Options: nosniff
+Etag: W/"23d-yP+Ceu1ifwiJZX0AeAz8Jyescyo"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=StmMJI2E22N58V27lQUnlUSDw9MzDWUbNAd4salLp6ysHl3x4mHsvxszLIigw1b5LbtaupBmqobDXA2xCEH%2F5K9hbANLJv4RLuZ0tFOT6oDenu7om4gTvdRNCesbad6q9D4%2Foj0VuM1bmqRjcbJu"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7e8b80792e072ac8-LAX
+alt-svc: h3=":443"; ma=86400
+
+{
+    "0": {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "nphmijcf",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "slikjkgj",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    "id": 11
+}
+
+[2023-07-18 02:44:17] [1] [INFO] TEST [automation-course-demo - testCreateUser] PASSED at [07:44:17 2023-07-18]

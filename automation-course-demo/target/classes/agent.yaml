@@ -1,0 +1,19 @@
+reporting:
+
+  enabled: true
+
+  project-key: UNKNOWN
+
+  server:
+
+    hostname: localhost:8080
+
+    access-token: <token>
+
+  run:
+
+    display-name: Nightly Regression Suite
+
+    build: 1.12.1.96-SNAPSHOT
+
+    environment: TEST-1

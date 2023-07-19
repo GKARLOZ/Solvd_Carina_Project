@@ -1,4 +1,4 @@
-package com.solvd.qa.carina.demo.regression.facebookTests;
+package com.solvd.qa.carina.demo.facebookTests;
 
 import com.solvd.qa.carina.demo.facebook.DeletePostMethod;
 import com.solvd.qa.carina.demo.facebook.GetPostsMethod;

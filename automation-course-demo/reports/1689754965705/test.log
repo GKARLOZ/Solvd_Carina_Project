@@ -1,0 +1,22 @@
+[2023-07-19 08:22:45] [1] [INFO] 
+============= Basic configuration =============
+env=Facebook
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://graph.facebook.com/v17.0/
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+===============================================
+
+[2023-07-19 08:22:45] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-19 08:22:48] [1] [INFO] [TestNG] Running:
+  C:\Users\gianm\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[2023-07-19 08:22:48] [1] [INFO] Set thread-count=1
+[2023-07-19 08:22:48] [1] [INFO] Set data-provider-thread-count=1
+[2023-07-19 08:22:49] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2023-07-19 08:22:50] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-07-19 08:22:50] [1] [INFO] RESULT #1: TEST [automation-course-demo - testGetAllPosts] PASS [log=file://C:\Users\gianm\Desktop\automation-course-demo\.\reports\1689754965705/a1682f9a-c735-46a2-a49a-82061bc71216/test.log]

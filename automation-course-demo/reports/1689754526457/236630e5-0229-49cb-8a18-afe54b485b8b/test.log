@@ -1,0 +1,122 @@
+[2023-07-19 08:15:30] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-19 08:15:30] [1] [INFO] TEST [automation-course-demo - testDeleteLastPost] STARTED at [01:15:30 2023-07-19]
+[2023-07-19 08:15:31] [1] [INFO] Request method:	GET
+Request URI:	https://graph.facebook.com/v17.0%2F%2Fme/feed?access_token=EAAYKMfI5fVYBADUPSZCYIqGJyP3NgpBQRn7q6fvqgUuDXHQCaJZCUtwXZA7nd9W83pH5ocD19oW2YVqRUjZBZBl6UlDhmJBaBN3xp9ndMZCxfbqxxE1s1Xf0ZAbxnQpvHklWCzDMHKJL5BHWDPGtbVWQYzRYd5tLr8c5pN4ZCZBgurruuzMDZAKvv5NsQz7P8JBuYZD&limit=1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+ETag: "8f43b7a2bdaca2c3c67115ec96fd37a9c2b2e1ef"
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: Accept-Encoding
+x-business-use-case-usage: {"110109102154331":[{"type":"pages","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+Access-Control-Allow-Origin: *
+facebook-api-version: v17.0
+Strict-Transport-Security: max-age=15552000; preload
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-fb-request-id: AIs8MY36c_iig7MCru3ZWfc
+x-fb-trace-id: CdybwhOyFcV
+x-fb-rev: 1007859316
+X-FB-Debug: qQyD/6n82ZrxPzu1iRjusGfPp97hLXpzwX2ktUzZNIZk3T7c+ZQzE9o3ajAxmiZFzs3qlVmjUGqjwkqGTgXVlg==
+Date: Wed, 19 Jul 2023 08:15:32 GMT
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+Content-Length: 1534
+
+{
+    "data": [
+        {
+            "created_time": "2023-07-19T05:05:01+0000",
+            "message": "Testing Post using Carina framework",
+            "id": "110109102154331_111609942004089"
+        }
+    ],
+    "paging": {
+        "cursors": {
+            "before": "QVFIUjZAFU1VMWWMxS1p3dTY3cUUta1pjLXl3VWRKLXhUNXBNVGh3Q0hQTDJGR3pVZAUhFRHZA2UjBVX0RHR3FyTTBLZA1BMbXY3MUgzemZACQ0RfZA0swcG9EVDh3RngtcEYzOEdwcmI2RjBlS1MxbzZA0WmpQWTJaalF3MTBhb0EzcEdNekoyc2cyb1ZAmVGRJY0o0Y0N2dXhFM3RqSmhLMDBfZAVJpLWZAlY21CSkF1MG1oV1VHU3pkTnFEbXB4cldxazZANaE9sNFA2YTQ4dkF5UktOYlBfSFNobER4VENrNVEyaGZA1TUE3ZAnFGMkVUN3F0b1hqQlVNdV9sZAWV1Yk92Q0JBZAXRqMDFpVVIyQTdUMFRxMGZAJcGtYd3BsTzl4M1V1OWJjdlJNVzM5YlJsZAUlETEdQc3kwZAHJUeWlxYUJRZAjVWTWRQLXFRYk5ZAU3RVMC03M3dhNll5eFpJX2FOTmx1NTQwazEzY21kenBwajlhUGI1RnNnS0FCOHlvNXVLeXQwZATJBNTVhOWR2N0ZAjUzJ5amxQRnh3NEVBTTBZAM1JrSjZAUTHJldGU1bE03S1NaRG5uVWZAjXzllaFFDTEkzYzBqZAlV6QjdUMWtNYmpsX0dpQUZAtTHhRbnFVQ2N1OTRpNjVxM2QyYnB6dkFkOHV1aDBoNzd3R29iRmh1R2hqbDhHZAVdfTmNfOFlja3J6cEVqLVdPVnp5T29pcVVSMHAzUQZDZD",
+            "after": "QVFIUmhJZAnkybzUzaFBoUGNWdjgzQ1p1SFpKQnZAGbUtEOTlhMGg3djhGSy1fTUVQdV8xcWNwSUtzOGN5dDFSa0lfQ0lOelBZAMTZAsemd2c0ZAIZA25PQXlNU0V5TVdQT1FTUkw2Yk9DZAlJpQm5QVndxR2JNM2RpdldWclVVSVBWV2RIbmpVTlRKWmRrT1BKOTNpLWEyZAjJ5NUNvTGhIU3l2XzR0cER0Rjc5S3NQVHAxVVoyYTh0a0E3bC1Nb1ZAzTEYyaFJWUEdjR2NManpwbXZAYb0pOT25tTXpLcE02VU16b3ZAjUUNRZAzczOHlHRHR6MkF2bk9kWDZABdDE1UldBeXk4aU1hRmItY0hMcFJDY0M4STJPQjVUSXRaZAXJvX1hORlBadjRUV2FwUHVVOVd2MmV4dGhYdFNWTnlmVnBsNUdzVDhvenVXNXdWTHhya20yU0NTaEFTUV9udkM0T0NyRDZA5NWRmOUx4TDZAtdjNaMENvV3VZAQ3ByZAXRZATGdKN0ZAvNy1QaExOMTl2dUE5aE02eTNsZAWZAJUmFSV2trTEUtNE5HQU5lcUVxTjhFWTZAVaDI1MVdrLXdETHgyMTBDY3ZApWkE0ZAl9EX1hodzhRdzNJWFM0dUV2YklWQ3B3NUtYdUZAnaWZAESnlpR1JFM0lIVDZATZAThydm03cHYwbG9HcFN3czh6aTFwbmFLNmpTekJuMVBIQkVqNmZA4Qi1IOVpVQQZDZD"
+        },
+        "next": "https://graph.facebook.com/v17.0/110109102154331/feed?access_token=EAAYKMfI5fVYBADUPSZCYIqGJyP3NgpBQRn7q6fvqgUuDXHQCaJZCUtwXZA7nd9W83pH5ocD19oW2YVqRUjZBZBl6UlDhmJBaBN3xp9ndMZCxfbqxxE1s1Xf0ZAbxnQpvHklWCzDMHKJL5BHWDPGtbVWQYzRYd5tLr8c5pN4ZCZBgurruuzMDZAKvv5NsQz7P8JBuYZD&limit=1&after=QVFIUmhJZAnkybzUzaFBoUGNWdjgzQ1p1SFpKQnZAGbUtEOTlhMGg3djhGSy1fTUVQdV8xcWNwSUtzOGN5dDFSa0lfQ0lOelBZAMTZAsemd2c0ZAIZA25PQXlNU0V5TVdQT1FTUkw2Yk9DZAlJpQm5QVndxR2JNM2RpdldWclVVSVBWV2RIbmpVTlRKWmRrT1BKOTNpLWEyZAjJ5NUNvTGhIU3l2XzR0cER0Rjc5S3NQVHAxVVoyYTh0a0E3bC1Nb1ZAzTEYyaFJWUEdjR2NManpwbXZAYb0pOT25tTXpLcE02VU16b3ZAjUUNRZAzczOHlHRHR6MkF2bk9kWDZABdDE1UldBeXk4aU1hRmItY0hMcFJDY0M4STJPQjVUSXRaZAXJvX1hORlBadjRUV2FwUHVVOVd2MmV4dGhYdFNWTnlmVnBsNUdzVDhvenVXNXdWTHhya20yU0NTaEFTUV9udkM0T0NyRDZA5NWRmOUx4TDZAtdjNaMENvV3VZAQ3ByZAXRZATGdKN0ZAvNy1QaExOMTl2dUE5aE02eTNsZAWZAJUmFSV2trTEUtNE5HQU5lcUVxTjhFWTZAVaDI1MVdrLXdETHgyMTBDY3ZApWkE0ZAl9EX1hodzhRdzNJWFM0dUV2YklWQ3B3NUtYdUZAnaWZAESnlpR1JFM0lIVDZATZAThydm03cHYwbG9HcFN3czh6aTFwbmFLNmpTekJuMVBIQkVqNmZA4Qi1IOVpVQQZDZD"
+    }
+}
+
+[2023-07-19 08:15:35] [1] [INFO] Request method:	DELETE
+Request URI:	https://graph.facebook.com/v17.0%2F%2F110109102154331_111609942004089?access_token=EAAYKMfI5fVYBADUPSZCYIqGJyP3NgpBQRn7q6fvqgUuDXHQCaJZCUtwXZA7nd9W83pH5ocD19oW2YVqRUjZBZBl6UlDhmJBaBN3xp9ndMZCxfbqxxE1s1Xf0ZAbxnQpvHklWCzDMHKJL5BHWDPGtbVWQYzRYd5tLr8c5pN4ZCZBgurruuzMDZAKvv5NsQz7P8JBuYZD
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+x-business-use-case-usage: {"110109102154331":[{"type":"pages","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+Access-Control-Allow-Origin: *
+facebook-api-version: v17.0
+Strict-Transport-Security: max-age=15552000; preload
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-fb-request-id: AvpgynLUAvLX_GFCnioLr2P
+x-fb-trace-id: HRN95TWKHhK
+x-fb-rev: 1007857343
+X-FB-Debug: BNZ1j7m7RZl9luOqjiJZk4Y61sjxw0QwzKBJdfSzOMAb8vE2Ad8tN6SlDcgrNOSo7W36R9mW8SyXX+Vi0zW2dw==
+Date: Wed, 19 Jul 2023 08:15:36 GMT
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+Content-Length: 16
+
+{
+    "success": true
+}
+
+[2023-07-19 08:15:35] [1] [ERROR] TEST [automation-course-demo - testDeleteLastPost] FAILED at [01:15:35 2023-07-19] - freemarker.template.TemplateNotFoundException: Template not found for name "api/users/_delete/rs2.json".
+The name was interpreted by this TemplateLoader: ClassTemplateLoader(resourceLoaderClass=com.zebrunner.carina.api.apitools.builder.MessageBuilder, basePackagePath="/").
+
+com.zebrunner.carina.api.apitools.builder.MessageBuilder.buildStringMessage(MessageBuilder.java:51)
+com.zebrunner.carina.api.apitools.message.TemplateMessage.getMessageText(TemplateMessage.java:111)
+com.zebrunner.carina.api.AbstractApiMethodV2.validateResponse(AbstractApiMethodV2.java:337)
+com.zebrunner.carina.api.AbstractApiMethodV2.validateResponse(AbstractApiMethodV2.java:299)
+com.zebrunner.carina.api.AbstractApiMethodV2.validateResponse(AbstractApiMethodV2.java:363)
+com.solvd.qa.carina.demo.regression.facebookTests.APITest.testDeleteLastPost(APITest.java:50)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)

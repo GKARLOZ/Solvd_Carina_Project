@@ -1,0 +1,24 @@
+[2023-07-19 08:19:51] [1] [INFO] 
+============= Basic configuration =============
+env=Facebook
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://graph.facebook.com/v17.0/
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+===============================================
+
+[2023-07-19 08:19:51] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-19 08:19:57] [1] [INFO] [TestNG] Running:
+  C:\Users\gianm\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[2023-07-19 08:19:57] [1] [INFO] Set thread-count=1
+[2023-07-19 08:19:57] [1] [INFO] Set data-provider-thread-count=1
+[2023-07-19 08:19:57] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2023-07-19 08:20:06] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-07-19 08:20:06] [1] [INFO] RESULT #1: TEST [automation-course-demo - testCreatePost] PASS [log=file://C:\Users\gianm\Desktop\automation-course-demo\.\reports\1689754791326/3230792d-341c-424d-99f1-d39e7785a1a8/test.log]
+[2023-07-19 08:20:06] [1] [INFO] RESULT #2: TEST [automation-course-demo - testDeleteLastPost] PASS [log=file://C:\Users\gianm\Desktop\automation-course-demo\.\reports\1689754791326/032b4f58-19b3-44c0-8b45-c332a50feabb/test.log]
+[2023-07-19 08:20:06] [1] [INFO] RESULT #3: TEST [automation-course-demo - testGetAllPosts] PASS [log=file://C:\Users\gianm\Desktop\automation-course-demo\.\reports\1689754791326/4fcadff4-2312-4b35-b13b-48b47671ef2a/test.log]

@@ -1,0 +1,53 @@
+[2023-07-19 07:03:49] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-19 07:03:49] [1] [INFO] TEST [automation-course-demo - testGetLastPosts] STARTED at [12:03:49 2023-07-19]
+[2023-07-19 07:03:50] [1] [INFO] Request method:	GET
+Request URI:	https://graph.facebook.com/v17.0%2F%2Fme/feed?access_token=EAAYKMfI5fVYBABtVQEKZBtfoO25WQUPtUbjS3y8uks8K9KlYnp9PEKR69e1CaA7ZAf4YDQbeUZAGGY8LOfty1LMzOlbZA7Yvg4qr8RtdIOXyPt5IAQ9BK57DqS789nLlaQczzeHbrZBtFjHKZA7LYuwBC8y7QcgIqzE3ZChjZAsQsYhFZAoEUkHr2NqToVAvPDFoZD&limit=1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+ETag: "7e7a15349804e0fae6e6df2d6f0d4fa202329cd4"
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: Accept-Encoding
+x-business-use-case-usage: {"110109102154331":[{"type":"pages","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+Access-Control-Allow-Origin: *
+facebook-api-version: v17.0
+Strict-Transport-Security: max-age=15552000; preload
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-fb-request-id: ADJJ92UrGpzJMia0GLLbCIP
+x-fb-trace-id: Bfr0b1v0ddy
+x-fb-rev: 1007866373
+X-FB-Debug: T9jMvo1Aw6fkCiVxoYTTYVonwAYTbIafvUuvcRSKkrXdgivkiV/dwcJloUchbLM5Sx3BhNRaWk6SaplMSZlUxA==
+Date: Wed, 19 Jul 2023 19:03:50 GMT
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+Content-Length: 1536
+
+{
+    "data": [
+        {
+            "created_time": "2023-07-19T05:03:49+0000",
+            "message": "Testing Post using Carina framework",
+            "id": "110109102154331_111609008670849"
+        }
+    ],
+    "paging": {
+        "cursors": {
+            "before": "QVFIUjZADYUxPV0dOQURqRHY1RHJzWlNpeWpDOEdyQ3dWSC1TVjYzcGZA3MDJkYmJ2dWwxUlQyT1UwMG9vLXE1MjVFQndiOGRNUVR3bkd2a05DTGtVeE1hZAUNqQW1NMUplUmhsNE5qZAFdqSFZAxOEg1bzNUbUpZAcEdkMjcwMnpCa0lYU0pnWXZAWSjk3MDRFaTU1RVVPYi1VejZAHdlY0ZA1BzR3RTbjRhWndmYlNSZAVY1bzhieGtfX2h0Szl2RV90ZAERlTW9fdG41ZA2FHUEpUY3o5ZAm5vOHJHQ2VmLUQxMGdDQ2pwWVFhbWN6bTRaN25aOW9MdF9EYnBwZATFUY3JVNkxuLXRUNkpBeWp4TDhOV21oSXR1UVBabWNhM3J5YzFwY2dzamxWRjRseVlsdUJFc3lsaFZAuT0ZAmZA1h4V2ZAPcjY1YmVjR1g1dXdqYXJsTjdvSGhYNERrdnVWLUlXeDAzTHRWSnFtVW1aZAjhkRDlpOFZA5N1FXYmNSdlgtS0h1aVpXRFdUYXB2YkxEcGhDWXVBS1NucjR2WDVwd1pLZAVRCMEo0OEpjT0dCb3VGVEVwandiVUJmUXJTZAEswR092OWlDRTF1U04yOUhYNjVjQTY3Q25jYWYxU3BzZAjdwYnFtbWx3Ql9ENUFJeXd4ZAXN2X1JEOVJyZAUV6NTRMcmNheWVTdTB5c0VlUzdTcE1wUkZAVSWYwc0tSS0ZATTEROUTlzZAwZDZD",
+            "after": "QVFIUk9ZAT2taUFZA0VlB1NzlWd0Rfajd2WVRHQWVtejg3MWU2clU4bllrdUhQa1Y4MEJPd2w0d1ZA6UFlDcUdULWNmZAUZAZAT2RvdlNTM3BVcGJGRDU1ck9UV25fTVM0WU9ZAamJQY21XQzc2NFJ6U1hpbTdFYUN0Rm4wRXNxNUlBVkVfQVowWjJvelE0ZAFhBTExRZAW1TdW1lbVNfd2NOcjlJYU1wLXZARSzN2LWY1OE5MMVRHUWZAxR0JTYUdUZA0MwNzZARQXdHYlRFd1IyNzJyYktEU1NQYUliZAGdhY1ZAnM3ZAPcWR1Vl9CQ2Y4dk5fYXZAWZATNfSS0tS2d6OXVIQU56UTdiNXJGekpYUG9fek1lT1VHNzVFTElKVXJjYzZALcHVvTll6ajM2ZAG9Ka1ZATcnROM3dwUWpOaUdIRzRvakNQRDhseVZABaUE1OWVfVkNSUWpYZATJkbW0zU0VyUjdPSWZArY1NaUmdyNTh5RDRNZA0MtMkZAFczVzQWQ0em5UbjNWSnVhV2VaT0pvSDF3bVlwSDR2Y0ZANa1VfMkdQeXM1ZA2loZA2NfQ1h6Yl9sNUF5ZA0U4eF9sb3Fsc25RZAGxTbk80ckhVOGlieFdpdDUzZAWNZAVDF5TndxSGZAiTWdsZAVZAzeXFSeXNWbkc1U0ZApSW5fNWdtd0EtWGZAjQkx0Ymd4R0tORFpXY3VsNTFWZAlF4aEw4QmZA4anFCSDQta0lLOXhOVk5jdwZDZD"
+        },
+        "next": "https://graph.facebook.com/v17.0/110109102154331/feed?access_token=EAAYKMfI5fVYBABtVQEKZBtfoO25WQUPtUbjS3y8uks8K9KlYnp9PEKR69e1CaA7ZAf4YDQbeUZAGGY8LOfty1LMzOlbZA7Yvg4qr8RtdIOXyPt5IAQ9BK57DqS789nLlaQczzeHbrZBtFjHKZA7LYuwBC8y7QcgIqzE3ZChjZAsQsYhFZAoEUkHr2NqToVAvPDFoZD&limit=1&after=QVFIUk9ZAT2taUFZA0VlB1NzlWd0Rfajd2WVRHQWVtejg3MWU2clU4bllrdUhQa1Y4MEJPd2w0d1ZA6UFlDcUdULWNmZAUZAZAT2RvdlNTM3BVcGJGRDU1ck9UV25fTVM0WU9ZAamJQY21XQzc2NFJ6U1hpbTdFYUN0Rm4wRXNxNUlBVkVfQVowWjJvelE0ZAFhBTExRZAW1TdW1lbVNfd2NOcjlJYU1wLXZARSzN2LWY1OE5MMVRHUWZAxR0JTYUdUZA0MwNzZARQXdHYlRFd1IyNzJyYktEU1NQYUliZAGdhY1ZAnM3ZAPcWR1Vl9CQ2Y4dk5fYXZAWZATNfSS0tS2d6OXVIQU56UTdiNXJGekpYUG9fek1lT1VHNzVFTElKVXJjYzZALcHVvTll6ajM2ZAG9Ka1ZATcnROM3dwUWpOaUdIRzRvakNQRDhseVZABaUE1OWVfVkNSUWpYZATJkbW0zU0VyUjdPSWZArY1NaUmdyNTh5RDRNZA0MtMkZAFczVzQWQ0em5UbjNWSnVhV2VaT0pvSDF3bVlwSDR2Y0ZANa1VfMkdQeXM1ZA2loZA2NfQ1h6Yl9sNUF5ZA0U4eF9sb3Fsc25RZAGxTbk80ckhVOGlieFdpdDUzZAWNZAVDF5TndxSGZAiTWdsZAVZAzeXFSeXNWbkc1U0ZApSW5fNWdtd0EtWGZAjQkx0Ymd4R0tORFpXY3VsNTFWZAlF4aEw4QmZA4anFCSDQta0lLOXhOVk5jdwZDZD"
+    }
+}
+
+[2023-07-19 07:03:50] [1] [INFO] TEST [automation-course-demo - testGetLastPosts] PASSED at [12:03:50 2023-07-19]

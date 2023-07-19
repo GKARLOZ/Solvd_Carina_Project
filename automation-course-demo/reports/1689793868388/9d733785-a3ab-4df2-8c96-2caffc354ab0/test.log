@@ -1,0 +1,127 @@
+[2023-07-19 07:11:14] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-19 07:11:14] [1] [INFO] TEST [automation-course-demo - testDeleteLastPost] STARTED at [12:11:14 2023-07-19]
+[2023-07-19 07:11:15] [1] [INFO] Request method:	GET
+Request URI:	https://graph.facebook.com/v17.0%2F%2Fme/feed?access_token=EAAYKMfI5fVYBABtVQEKZBtfoO25WQUPtUbjS3y8uks8K9KlYnp9PEKR69e1CaA7ZAf4YDQbeUZAGGY8LOfty1LMzOlbZA7Yvg4qr8RtdIOXyPt5IAQ9BK57DqS789nLlaQczzeHbrZBtFjHKZA7LYuwBC8y7QcgIqzE3ZChjZAsQsYhFZAoEUkHr2NqToVAvPDFoZD&limit=1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 400 Bad Request
+Content-Encoding: gzip
+Vary: Origin
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: *
+cross-origin-resource-policy: cross-origin
+x-app-usage: {"call_count":2,"total_cputime":0,"total_time":0}
+Content-Type: application/json; charset=UTF-8
+WWW-Authenticate: OAuth "Facebook Platform" "invalid_token" "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons."
+Strict-Transport-Security: max-age=15552000; preload
+Pragma: no-cache
+Cache-Control: no-store
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-fb-request-id: A5175Qil3jHO5oUJig2U1nc
+x-fb-trace-id: EJBAjJxqXgA
+x-fb-rev: 1007866373
+X-FB-Debug: iVVzvUv9pelOPhWAb1FyvQXXCo34ummQR/lWt7p1FHOrrfE1w1wAq6Z9I/N+eIiI8+gO5erXtLCukk4vH4aVnw==
+Date: Wed, 19 Jul 2023 19:11:15 GMT
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+Content-Length: 221
+
+{
+    "error": {
+        "message": "Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.",
+        "type": "OAuthException",
+        "code": 190,
+        "error_subcode": 460,
+        "fbtrace_id": "A5175Qil3jHO5oUJig2U1nc"
+    }
+}
+
+[2023-07-19 07:11:15] [1] [ERROR] TEST [automation-course-demo - testDeleteLastPost] FAILED at [12:11:15 2023-07-19] - 2 expectations failed.
+Expected status code <200> but was <400>.
+
+Expected status line a string containing "OK" doesn't match actual status line "HTTP/1.1 400 Bad Request".
+
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1656)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171)
+io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+com.zebrunner.carina.api.http.HttpClient.send(HttpClient.java:37)
+com.zebrunner.carina.api.AbstractApiMethod.callAPI(AbstractApiMethod.java:301)
+com.zebrunner.carina.api.AbstractApiMethodV2.callAPI(AbstractApiMethodV2.java:189)
+com.zebrunner.carina.api.AbstractApiMethod.callAPI(AbstractApiMethod.java:279)
+com.zebrunner.carina.api.AbstractApiMethodV2.callAPI(AbstractApiMethodV2.java:181)
+com.zebrunner.carina.api.AbstractApiMethodV2.callAPIExpectSuccess(AbstractApiMethodV2.java:215)
+com.solvd.qa.carina.demo.regression.facebookTests.APITest.testDeleteLastPost(APITest.java:43)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)

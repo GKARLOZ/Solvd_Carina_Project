@@ -11,7 +11,7 @@ import com.zebrunner.carina.utils.config.Configuration;
 
 @Endpoint(url = "${base_url}/${postId}?access_token=${token}", methodType = HttpMethodType.DELETE)
 //@RequestTemplatePath(path = "api/users/_delete/rq.json")
-@ResponseTemplatePath(path = "facebook_api/message/ _delete/rs2.json")
+@ResponseTemplatePath(path = "facebook_api/message/_delete/rs2.json")
 @SuccessfulHttpStatus(status = HttpResponseStatusType.OK_200)
 public class DeletePostMethod extends AbstractApiMethodV2 {
 

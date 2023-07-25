@@ -15,7 +15,7 @@ public class GetPostsMethod extends AbstractApiMethodV2 {
 
     public GetPostsMethod(){
         replaceUrlPlaceholder("base_url", Configuration.getRequired("api_url"));
-        replaceUrlPlaceholder("token",new pagToken().getToken());
+        replaceUrlPlaceholder("token",Configuration.getRequired("page_token"));
 
     }
 

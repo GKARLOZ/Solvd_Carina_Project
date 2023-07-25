@@ -1,0 +1,87 @@
+[2023-07-25 08:24:25] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-25 08:24:25] [1] [INFO] TEST [automation-course-demo - testDeleteLastPost] STARTED at [01:24:25 2023-07-25]
+[2023-07-25 08:24:27] [1] [INFO] Request method:	GET
+Request URI:	https://graph.facebook.com/v17.0%2F%2Fme/feed?access_token=EAAYKMfI5fVYBAAp8651xp4YKutIZAWbWJbLYDI127esbQbt0uDsnSBZBY66xWrK2Gvn6077wmU4UFbbcZBe69TplWYfmr7Hwc9155CvIclgeMfSOnZBotxuV82ByKJiwv5e1Ms2PZCZAwxQsFZAe4bKfBjy1aMVHIlfMknGOoRqtEUyJMZCDJaVk1dOPLMwH8fgZD&limit=1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+ETag: "43ff11876f9c21fdbec1efc3bd258da19316e7f2"
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: Accept-Encoding
+x-business-use-case-usage: {"110109102154331":[{"type":"pages","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+Access-Control-Allow-Origin: *
+facebook-api-version: v17.0
+Strict-Transport-Security: max-age=15552000; preload
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-fb-request-id: Al_t65-jmB4Yua51P6KnU-D
+x-fb-trace-id: HiDv9xiPHhR
+x-fb-rev: 1007896012
+X-FB-Debug: isLjtQ0CcjmBajOkvTM8fOzxXSgv0YxL8yVyAVx3+iLj7feYaUCv4ylGb+/hkbNCFR/si/Ujo5iGfcLYK7m86Q==
+Date: Tue, 25 Jul 2023 08:24:27 GMT
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+Content-Length: 1542
+
+{
+    "data": [
+        {
+            "created_time": "2023-07-25T08:23:29+0000",
+            "message": "Testing Post using json in Carin Framework",
+            "id": "110109102154331_117563444742072"
+        }
+    ],
+    "paging": {
+        "cursors": {
+            "before": "QVFIUlhSNHBtY2tBb2EwWDR4ZAV9FY2U4NUZARZAmhLUDE2SmEyZAFBYQUY3ckc0RjQ1Q0h1Q3B3XzIzd19TbE5vZAjdJbUp4TXl1MWFyNktFZAWN5T0RPeV9pMGJobzJPWjl4cUhwcjltTGp0ZAlZAmcnd4d2wyQjN0b1hGREI4WklOY3VBcWZAYSUpvVE93MHZAHajZAhU0xUUVhfUHoxS0ZAlS0gxUzdPNEhrQ25EajY5c1hRQnRhUVkzYnBnMm9UUE1QRnRmUzdRLWxmVE0yVTJwZA1ByMW5SZAVMyTzkxdGllZAXhJbEFhcklyV21pNVRDQ2tkMjhva1RzbnhJZAlo1dHAyZA0ZA4aHFjMDFZAcmY5Nmh1ZA1F2R0xHcXVGZAVNnV0tCSDFHLVhYc3ZAvd0EzMDVXalJtNEdFVzJpRm5qRWJHd1p3ZAVpjU1F5VFFNa2trZAVBVWTc3Uzd2MkN3by10YUJ1dXk2a3NJQ2lvSlQ4UW1HTDRhTlpuUF9yUmpndUREYkszdEVvQ2VqaDV2TDY1UU9ubGVzbHZAYR0E1d180WEt3d1Bfbm1Fd194Q0NfYmhJMHNPZAWZAQUEF5MTAwYVZA1RWRLM0ZAFTjJtVmIxWEVSaFVkSkJMY2FkQmRWX0pfRUxSUVVjdml0YV84eEdlN2NfSHFtU2hVZA01ZAOVA0Q1YxZA2dNalpfdURnS0ltbE80WVIwaVduUzdmR2NzWUItY2RuRmpHUQZDZD",
+            "after": "QVFIUnAzczRHLW5ya3ZABSG5XeXNRaHlGN1dYU0hmZAmJqRnRxdkREa2M3Q3gzYnB5ZAVhNVEJHY09hVkx6bTZAhNkZAYUFJwWnQtRnZAhT1hFUloyZA2FHY2hfUHB1aHRZAWE5hYnhXYXMyMzYzeENSM01aeHEzVjhETDN2SDIwXzZABN2IyUEt1RzdoaVJIa1ZABRW1ZAeWxiQnlRM3pLbjlwOUhZAYTRvODBSUHdhbjM1UjJ5cWpkaEpRbU5SUkg0TXJ5ckIyYi1PbkdjbUI5TjJuaFFnM20zZAFhpWlFUalFmZADd3R3ZAtRjVLR2xRdXNuOUcwaHVzdFBPVFB0ZAHFsQXZAwa0tQVlJaam94bG8wcXF6N0IxM01nLWVIWDJHMlRnREpoOTFBUko0c3JTWGtGSHFmYkNQOFM1SHkxaXlJQzN4dTBwdzZA6Vlc1UERZAcEVkVDFvUFUxNkRmdHJSX2lOYmNjTlRIZAVYtOXFNcTFaU19TaU5oNzFFMGlBX3A1WnQ2ZAzdRVkY0Ni1rQ3hBVGI3N2RUVV9QeC1DbGlXSkEzX1RjRWtnTllmbTlrUEk3ek5TVnVQeEVHYVFMMEdrdGp3SlIzZAF9VVHpfZAFVIcHEwM0NFUmNHUUhxNWs4ek5uU3Exai1udzRFQWlSSkZAmOEhCR3JyQnVhazhyVXI0X05fbWhicVNzNGtzZA0lFSlhoNkRQRkoxN2xvQVNsaHBOdnkwQQZDZD"
+        },
+        "next": "https://graph.facebook.com/v17.0/110109102154331/feed?access_token=EAAYKMfI5fVYBAAp8651xp4YKutIZAWbWJbLYDI127esbQbt0uDsnSBZBY66xWrK2Gvn6077wmU4UFbbcZBe69TplWYfmr7Hwc9155CvIclgeMfSOnZBotxuV82ByKJiwv5e1Ms2PZCZAwxQsFZAe4bKfBjy1aMVHIlfMknGOoRqtEUyJMZCDJaVk1dOPLMwH8fgZD&limit=1&after=QVFIUnAzczRHLW5ya3ZABSG5XeXNRaHlGN1dYU0hmZAmJqRnRxdkREa2M3Q3gzYnB5ZAVhNVEJHY09hVkx6bTZAhNkZAYUFJwWnQtRnZAhT1hFUloyZA2FHY2hfUHB1aHRZAWE5hYnhXYXMyMzYzeENSM01aeHEzVjhETDN2SDIwXzZABN2IyUEt1RzdoaVJIa1ZABRW1ZAeWxiQnlRM3pLbjlwOUhZAYTRvODBSUHdhbjM1UjJ5cWpkaEpRbU5SUkg0TXJ5ckIyYi1PbkdjbUI5TjJuaFFnM20zZAFhpWlFUalFmZADd3R3ZAtRjVLR2xRdXNuOUcwaHVzdFBPVFB0ZAHFsQXZAwa0tQVlJaam94bG8wcXF6N0IxM01nLWVIWDJHMlRnREpoOTFBUko0c3JTWGtGSHFmYkNQOFM1SHkxaXlJQzN4dTBwdzZA6Vlc1UERZAcEVkVDFvUFUxNkRmdHJSX2lOYmNjTlRIZAVYtOXFNcTFaU19TaU5oNzFFMGlBX3A1WnQ2ZAzdRVkY0Ni1rQ3hBVGI3N2RUVV9QeC1DbGlXSkEzX1RjRWtnTllmbTlrUEk3ek5TVnVQeEVHYVFMMEdrdGp3SlIzZAF9VVHpfZAFVIcHEwM0NFUmNHUUhxNWs4ek5uU3Exai1udzRFQWlSSkZAmOEhCR3JyQnVhazhyVXI0X05fbWhicVNzNGtzZA0lFSlhoNkRQRkoxN2xvQVNsaHBOdnkwQQZDZD"
+    }
+}
+
+[2023-07-25 08:24:30] [1] [INFO] Request method:	DELETE
+Request URI:	https://graph.facebook.com/v17.0%2F%2F110109102154331_117563444742072?access_token=EAAYKMfI5fVYBAAp8651xp4YKutIZAWbWJbLYDI127esbQbt0uDsnSBZBY66xWrK2Gvn6077wmU4UFbbcZBe69TplWYfmr7Hwc9155CvIclgeMfSOnZBotxuV82ByKJiwv5e1Ms2PZCZAwxQsFZAe4bKfBjy1aMVHIlfMknGOoRqtEUyJMZCDJaVk1dOPLMwH8fgZD
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+x-business-use-case-usage: {"110109102154331":[{"type":"pages","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+Access-Control-Allow-Origin: *
+facebook-api-version: v17.0
+Strict-Transport-Security: max-age=15552000; preload
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-fb-request-id: AmAlE5m37MxXrfVXOH0iLPi
+x-fb-trace-id: H17lnH/wAJw
+x-fb-rev: 1007896012
+X-FB-Debug: rULMHmnDJuaRgWn8EBh+ZLqu5uZHHn2MN36tRB+QW24WILmBPTZMggdRTTLupMndfIxrGUrwso6TvZHKLrriCw==
+Date: Tue, 25 Jul 2023 08:24:30 GMT
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+Content-Length: 16
+
+{
+    "success": true
+}
+
+[2023-07-25 08:24:30] [1] [INFO] TEST [automation-course-demo - testDeleteLastPost] PASSED at [01:24:30 2023-07-25]

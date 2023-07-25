@@ -1,0 +1,10 @@
+[2023-07-25 08:20:12] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-25 08:20:12] [1] [INFO] TEST [automation-course-demo - testGSMDailyHits] STARTED at [01:20:12 2023-07-25]
+[2023-07-25 08:20:12] [1] [INFO] Starting driver session...
+[2023-07-25 08:20:13] [1] [INFO] Driver session started.
+[2023-07-25 08:20:13] [1] [INFO] INFO: opening url 'https://www.gsmarena.com'
+[2023-07-25 08:20:16] [1] [INFO] Samsung Galaxy A54 33,442
+[2023-07-25 08:20:16] [1] [INFO] Samsung Galaxy S23 Ultra 30,742
+[2023-07-25 08:20:24] [1] [INFO] Samsung Galaxy A34 21,154
+[2023-07-25 08:20:24] [1] [INFO] Samsung Galaxy A14 18,019
+[2023-07-25 08:20:24] [1] [INFO] TEST [automation-course-demo - testGSMDailyHits] PASSED at [01:20:24 2023-07-25]

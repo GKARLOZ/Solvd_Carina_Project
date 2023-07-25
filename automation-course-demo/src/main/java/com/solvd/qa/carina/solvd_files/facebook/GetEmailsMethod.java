@@ -16,7 +16,7 @@ public class GetEmailsMethod extends AbstractApiMethodV2 {
         public GetEmailsMethod() {
 
             replaceUrlPlaceholder("base_url", Configuration.getRequired("api_url"));
-            replaceUrlPlaceholder("token",Configuration.getRequired(new pagToken().getToken()));
+            replaceUrlPlaceholder("token",Configuration.getRequired("page_token"));
         }
 
 

@@ -1,0 +1,28 @@
+[2023-07-25 08:25:43] [1] [INFO] 
+============= Basic configuration =============
+env=Facebook
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://www.ebay.com/
+selenium_url=http://localhost:4444/wd/hub
+auto_screenshot=true
+init_retry_count=2
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+browserName=chrome
+===============================================
+
+[2023-07-25 08:25:43] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-25 08:25:47] [1] [INFO] [TestNG] Running:
+  C:\Users\gianm\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[2023-07-25 08:25:47] [1] [INFO] Set thread-count=1
+[2023-07-25 08:25:47] [1] [INFO] Set data-provider-thread-count=1
+[2023-07-25 08:25:47] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2023-07-25 08:27:22] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-07-25 08:27:22] [1] [INFO] RESULT #1: TEST [automation-course-demo - testEbayAllCarTrucks] PASS [screenshots=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/report.html | log=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/test.log]
+[2023-07-25 08:27:22] [1] [INFO] RESULT #2: TEST [automation-course-demo - testEbayCompressorPrices] PASS [log=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690273543171/553a784b-9de7-4f11-b61d-96f0f23f6f6c/test.log]
+[2023-07-25 08:27:22] [1] [INFO] RESULT #3: TEST [automation-course-demo - testEbayMobilePhones] PASS [screenshots=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690273543171/8eb4411d-d558-4aa0-a6ec-92d9b69b2e5b/report.html | log=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690273543171/8eb4411d-d558-4aa0-a6ec-92d9b69b2e5b/test.log]
+[2023-07-25 08:27:22] [1] [INFO] RESULT #4: TEST [automation-course-demo - testGSMDailyHits] PASS [log=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690273543171/1d3b7798-7b93-4f2f-888b-0fb6be3afc86/test.log]

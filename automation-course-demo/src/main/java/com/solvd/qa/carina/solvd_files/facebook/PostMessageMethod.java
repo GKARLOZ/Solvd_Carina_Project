@@ -16,7 +16,7 @@ import com.zebrunner.carina.utils.config.Configuration;
 public class PostMessageMethod extends AbstractApiMethodV2 {
         public PostMessageMethod(){
             replaceUrlPlaceholder("base_url", Configuration.getRequired("api_url"));
-            replaceUrlPlaceholder("token",new pagToken().getToken());
+            replaceUrlPlaceholder("token",Configuration.getRequired("page_token"));
         }
 
 }

@@ -16,7 +16,7 @@ public class DeletePostMethod extends AbstractApiMethodV2 {
 
     public DeletePostMethod(){
         replaceUrlPlaceholder("base_url",Configuration.getRequired("api_url"));
-        replaceUrlPlaceholder("token",new pagToken().getToken());
+        replaceUrlPlaceholder("token",Configuration.getRequired("page_token"));
 
     }
 }

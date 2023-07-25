@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63436041-e454-401b-8843-cad027cab68d" name="Changes" comment="_config file edited">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/common/GSMPageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/common/HomePageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/common/ShopByCategoryPageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/desktop/GSMPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/desktop/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/desktop/ShopByCategoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/facebook/pagToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/solvd_test/ebay_Web/WebTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/facebook_resources/message/_get/rs2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/facebook_resources/message/_post/rq2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689756298382/0c771994-0ff9-43e2-a2b9-77cd7ddbd836/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689756298382/6e5ed515-bc03-4331-a0af-0bb6412fc8d7/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689756298382/82864c1d-b80b-44d0-899e-0c9aadaae06a/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689756298382/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689756298382/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793412540/3c4bede8-6244-4358-a347-e7e6142c77c4/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793412540/a317cef0-9fe0-4806-adb3-e57cfb8ecd1a/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793412540/dcea783b-1ba4-48b8-a0de-e1f3c584cf1b/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793412540/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793412540/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793464145/6dda90fc-9166-48ae-b92d-345684ed4414/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793464145/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793464145/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793499298/071eae54-8b23-45c8-b7a9-29f1d9a5c0a3/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793499298/67f18a82-f061-4504-85f9-de9e13324a77/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793499298/d0ce9200-dc1a-407c-9fc9-4733d8c01877/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793499298/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793499298/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793868388/12db30d0-04f9-4474-871f-6bbf48f150b1/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793868388/9d733785-a3ab-4df2-8c96-2caffc354ab0/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793868388/c06381ff-6bed-421c-ad31-227bbd3a20ef/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793868388/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689793868388/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689794067773/08e6dbf7-b247-45c6-9b0a-0ed0808f8301/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689794067773/96e9ac41-aa07-4043-b9bf-72c7e720d6d8/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689794067773/c9412d58-5ae7-46e9-be75-80bc8a8b65d3/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689794067773/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689794067773/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689794289147/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689794289147/f8940c31-7efd-4576-ab65-a4e3019d20bc/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689794289147/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689794676196/494ccfce-4c64-4786-a656-5b84115a28c7/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689794676196/76e7fdb8-d833-4844-b6ed-d82925a42d3d/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689794676196/9c39539f-090f-4a63-91f5-8116c202b09b/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689794676196/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1689794676196/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/gallery-lib/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/gallery-lib/cucumber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/gallery-lib/jquery-3.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/gallery-lib/jquery.photobox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/gallery-lib/photobox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/gallery-lib/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/gallery-lib/thumbnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/api/DeleteUserMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/api/GetUserMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/api/PostUserMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/db/mappers/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/db/mappers/UserPreferenceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/db/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/db/models/UserPreference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/facebook/DeletePostMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/facebook/DeletePostMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/facebook/GetEmailsMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/facebook/GetEmailsMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/facebook/GetPostsMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/facebook/GetPostsMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/facebook/PostMessageMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/facebook/PostMessageMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/components/ModelItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/components/NewsItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/components/WeValuePrivacyAd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/components/compare/CandidateBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/components/compare/ModelSpecs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/components/footer/FooterMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/components/footer/FooterMenuBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/components/footer/MobileFooterMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/android/AllBrandsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/android/BrandModelsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/android/CompareModelsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/android/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/android/ModelInfoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/android/NewsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/common/AllBrandsPageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/common/BrandModelsPageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/common/CompareModelsPageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/common/HomePageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/common/ModelInfoPageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/common/NewsPageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/desktop/AllBrandsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/desktop/AttachFilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/desktop/BrandModelsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/desktop/CompareModelsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/desktop/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/desktop/ModelInfoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/desktop/NewsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/desktop/WikipediaHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/desktop/WikipediaLocalePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/ios/AllBrandsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/ios/BrandModelsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/ios/CompareModelsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/ios/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/ios/ModelInfoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/gui/pages/ios/NewsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/android/CarinaDescriptionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/android/ChartsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/android/ContactUsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/android/DragAndDropPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/android/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/android/MapsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/android/UIElementsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/android/WebViewPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/android/WelcomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/common/CarinaDescriptionPageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/common/ChartsPageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/common/ContactUsPageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/common/LoginPageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/common/MapsPageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/common/UIElementsPageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/common/WebViewPageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/common/WelcomePageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/ios/CarinaDescriptionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/ios/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/ios/PreferencesPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/ios/SaucePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/mobile/gui/pages/ios/WelcomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/soap/AddIntegerMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/soap/LookupCityMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/utils/ArtifactUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/utils/ConnectionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/utils/MobileContextUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/websocket/EndpointUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/demo/websocket/WebsocketClientEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/L10N/locale.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/L10N/locale_de_DE.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/L10N/locale_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/L10N/locale_es_ES.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/L10N/locale_hu_HU.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/L10N/locale_ja_JP.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/L10N/locale_ru_RU.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/L10N/locale_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/_config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/_database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/_email.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/_testdata.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/browserstack/android/Google_Nexus_6.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/browserstack/ios/iPhone_12.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/browserstack/osx/big_sur.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/browserstack/win/win_10_Edge.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserPreferenceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/APISampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/AmazonS3Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/AutoDownloadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/CryptoSampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/CustomDataProvidersSampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/DBSampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/DataProvidersSampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/IOSPreferencesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/IOSSafariTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/MobileDragAndDropTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/MobileSampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/PageOpeningStrategySampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/ProxySampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/SoapSampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/WebLocalizationSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/WebMultipleBrowserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/WebSampleSingleDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/WebSampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/facebookTests/APITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/solvd_test/facebook_API/APITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/regression/attachfile/AttachFileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/regression/dataprovider/DataproviderRetryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/regression/dataprovider/DataproviderRetryTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/regression/dataprovider/DataproviderRetryTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/regression/dataprovider/XlsDataproviderRetryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/regression/esg/ArtifactTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/regression/esg/ClipboardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/regression/esg/DevToolsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/regression/esg/ProxyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/demo/regression/esg/VNCTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api/soap/addinteger/rq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api/soap/addinteger/rs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api/soap/lookupcity/rq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api/soap/lookupcity/rs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api/soap/soap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api/users/_delete/rq.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api/users/_delete/rs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api/users/_get/rs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api/users/_get/rs.schema" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api/users/_post/rq.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api/users/_post/rs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api/users/user.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data_source/calculator.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data_source/demo.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data_source/finances.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data_source/financesPrevYear.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/facebook_api/message/_delete/rs2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/facebook_resources/message/_delete/rs2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/facebook_api/message/_get/rs2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/facebook_api/message/_get/rs2.schema" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/facebook_api/message/_post/rq2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/facebook_api/message/_post/rs2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/facebook_resources/message/_post/rs2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/GSMArenaNews.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/amazon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/android-dragAndDrop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/android.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/autodownload.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/dataprovider.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/helloWorld.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/ios-preferences.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/ios-safari.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/ios.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/proxy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/regression/attachFile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/regression/dataprovider-multiply-classes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/regression/dataprovider-retry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/regression/esg-artifact.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/regression/esg-clipboard.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/regression/esg-devtools.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/regression/esg-proxy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/regression/esg-vnc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/regression/xls-dataprovider-retry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/soap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/web-localization.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/web-multiple-browser.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/web-open-strategy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/web-single-driver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_suites/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agent/zebrunner-agent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/L10N/locale.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/L10N/locale_de_DE.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/L10N/locale_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/L10N/locale_es_ES.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/L10N/locale_hu_HU.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/L10N/locale_ja_JP.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/L10N/locale_ru_RU.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/L10N/locale_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/_config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/_database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/_email.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/_testdata.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/agent.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/agent.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browserstack/android/Google_Nexus_6.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browserstack/ios/iPhone_12.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browserstack/osx/big_sur.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browserstack/win/win_10_Edge.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/api/DeleteUserMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/api/GetUserMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/api/PostUserMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/db/mappers/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/db/mappers/UserPreferenceMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/db/models/User$Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/db/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/db/models/UserPreference$Name.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/db/models/UserPreference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/facebook/DeletePostMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/facebook/GetEmailsMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/facebook/GetPostsMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/facebook/PostMessageMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/components/ModelItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/components/NewsItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/components/WeValuePrivacyAd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/components/compare/CandidateBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/components/compare/ModelSpecs$SpecType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/components/compare/ModelSpecs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/components/footer/FooterMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/components/footer/FooterMenuBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/components/footer/MobileFooterMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/android/AllBrandsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/android/BrandModelsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/android/CompareModelsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/android/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/android/ModelInfoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/android/NewsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/common/AllBrandsPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/common/BrandModelsPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/common/CompareModelsPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/common/HomePageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/common/ModelInfoPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/common/NewsPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/desktop/AllBrandsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/desktop/AttachFilePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/desktop/BrandModelsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/desktop/CompareModelsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/desktop/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/desktop/ModelInfoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/desktop/NewsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/desktop/WikipediaHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/desktop/WikipediaLocalePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/ios/AllBrandsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/ios/BrandModelsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/ios/CompareModelsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/ios/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/ios/ModelInfoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/gui/pages/ios/NewsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/android/CarinaDescriptionPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/android/ChartsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/android/ContactUsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/android/DragAndDropPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/android/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/android/MapsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/android/UIElementsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/android/WebViewPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/android/WelcomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/common/CarinaDescriptionPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/common/ChartsPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/common/ContactUsPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/common/LoginPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/common/MapsPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/common/UIElementsPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/common/WebViewPageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/common/WelcomePageBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/ios/CarinaDescriptionPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/ios/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/ios/PreferencesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/ios/SaucePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/mobile/gui/pages/ios/WelcomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/soap/AddIntegerMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/soap/LookupCityMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/utils/ArtifactUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/utils/ConnectionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/utils/MobileContextUtils$View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/utils/MobileContextUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/websocket/EndpointUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/websocket/WebsocketClientEndpoint$MessageHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/solvd/qa/carina/demo/websocket/WebsocketClientEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/UserPreferenceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/soap/addinteger/rq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/soap/addinteger/rs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/soap/lookupcity/rq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/soap/lookupcity/rs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/soap/soap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/users/_delete/rq.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/users/_delete/rs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/users/_get/rs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/users/_get/rs.schema" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/users/_post/rq.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/users/_post/rs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/users/user.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/APISampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/AmazonS3Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/AutoDownloadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/CryptoSampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/CustomDataProvidersSampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/DBSampleTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/DBSampleTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/DBSampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/DataProvidersSampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/IOSPreferencesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/IOSSafariTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/MobileDragAndDropTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/MobileSampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/PageOpeningStrategySampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/ProxySampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/SoapSampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/WebLocalizationSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/WebMultipleBrowserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/WebSampleSingleDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/WebSampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/facebookTests/APITest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/regression/attachfile/AttachFileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/regression/dataprovider/DataproviderRetryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/regression/dataprovider/DataproviderRetryTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/regression/dataprovider/DataproviderRetryTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/regression/dataprovider/XlsDataproviderRetryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/regression/esg/ArtifactTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/regression/esg/ClipboardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/regression/esg/DevToolsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/regression/esg/ProxyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/demo/regression/esg/VNCTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data_source/calculator.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data_source/demo.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data_source/finances.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data_source/financesPrevYear.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/facebook_api/message/_delete/rs2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/facebook_api/message/_get/rs2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/facebook_api/message/_get/rs2.schema" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/facebook_resources/message/_get/rs2.schema" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/facebook_api/message/_post/rq2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/facebook_api/message/_post/rs2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/GSMArenaNews.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/amazon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/android-dragAndDrop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/android.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/autodownload.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/dataprovider.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/helloWorld.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/ios-preferences.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/ios-safari.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/ios.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/proxy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/regression/attachFile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/regression/dataprovider-multiply-classes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/regression/dataprovider-retry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/regression/esg-artifact.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/regression/esg-clipboard.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/regression/esg-devtools.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/regression/esg-proxy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/regression/esg-vnc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/regression/xls-dataprovider-retry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/soap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/web-localization.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/web-multiple-browser.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/web-open-strategy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/web-single-driver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng_suites/web.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SdZlvU9B5ZvDZOT0duIGVxBSnd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/gianm/Desktop/Solvd_Carina3/automation-course-demo/target"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\target" />
+      <recent name="C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo" />
+      <recent name="C:\Users\gianm\Desktop\Solvd_Carina\automation-course-demo\src\main\resources" />
+      <recent name="C:\Users\gianm\Desktop\automation-course-demo\src\main\resources\drivers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gianm\Desktop\automation-course-demo\src\test\resources\facebook_api" />
+      <recent name="C:\Users\gianm\Desktop\automation-course-demo\src\test\resources\facebook_api\message\ _delete" />
+      <recent name="C:\Users\gianm\Desktop\automation-course-demo\src\test\resources\facebook_api\message\ _post" />
+      <recent name="C:\Users\gianm\Desktop\automation-course-demo\src\test\resources\facebook_api\message\ _get" />
+      <recent name="C:\Users\gianm\Desktop\automation-course-demo\src\test\resources\facebook_api\message" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.solvd.qa.carina.demo.solvd_files.gui.pages.desktop" />
+      <recent name="com.solvd.qa.carina.demo.facebook" />
+      <recent name="com.solvd.qa.carina.demo.regression.facebookTests" />
+      <recent name="com.solvd.qa.carina.demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.WebTest.testEbayMobilePhones">
+    <configuration name="APITest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solvd.qa.carina.solvd_test.facebook_API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.solvd.qa.carina.solvd_test.facebook_API" />
+      <option name="MAIN_CLASS_NAME" value="com.solvd.qa.carina.solvd_test.facebook_API.APITest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solvd.qa.carina.solvd_test.ebay_Web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.solvd.qa.carina.solvd_test.ebay_Web" />
+      <option name="MAIN_CLASS_NAME" value="com.solvd.qa.carina.solvd_test.ebay_Web.WebTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest.testEbayAllCarTrucks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solvd.qa.carina.solvd_test.ebay_Web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.solvd.qa.carina.solvd_test.ebay_Web" />
+      <option name="MAIN_CLASS_NAME" value="com.solvd.qa.carina.solvd_test.ebay_Web.WebTest" />
+      <option name="METHOD_NAME" value="testEbayAllCarTrucks" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest.testEbayCompressorPrices" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solvd.qa.carina.solvd_test.ebay_Web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.solvd.qa.carina.solvd_test.ebay_Web" />
+      <option name="MAIN_CLASS_NAME" value="com.solvd.qa.carina.solvd_test.ebay_Web.WebTest" />
+      <option name="METHOD_NAME" value="testEbayCompressorPrices" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest.testEbayMobilePhones" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solvd.qa.carina.solvd_test.ebay_Web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.solvd.qa.carina.solvd_test.ebay_Web" />
+      <option name="MAIN_CLASS_NAME" value="com.solvd.qa.carina.solvd_test.ebay_Web.WebTest" />
+      <option name="METHOD_NAME" value="testEbayMobilePhones" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.WebTest.testEbayMobilePhones" />
+        <item itemvalue="TestNG.WebTest" />
+        <item itemvalue="TestNG.APITest" />
+        <item itemvalue="TestNG.WebTest.testEbayCompressorPrices" />
+        <item itemvalue="TestNG.WebTest.testEbayAllCarTrucks" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63436041-e454-401b-8843-cad027cab68d" name="Changes" comment="" />
+      <created>1689478575099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689478575099</updated>
+    </task>
+    <task id="LOCAL-00001" summary="_config file edited">
+      <created>1689793566476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689793566476</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="_config file edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="_config file edited" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/zebrunner/carina-api/1.1.3/carina-api-1.1.3.jar!/com/zebrunner/carina/api/AbstractApiMethodV2.class</url>
+          <line>166</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/zebrunner/carina-api/1.1.3/carina-api-1.1.3.jar!/com/zebrunner/carina/api/AbstractApiMethodV2.class</url>
+          <line>169</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/zebrunner/carina-api/1.1.3/carina-api-1.1.3.jar!/com/zebrunner/carina/api/AbstractApiMethodV2.class</url>
+          <line>170</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

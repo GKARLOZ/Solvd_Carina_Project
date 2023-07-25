@@ -1,0 +1,40 @@
+[2023-07-25 08:03:26] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-25 08:03:26] [1] [INFO] TEST [automation-course-demo - testCreatePost] STARTED at [01:03:26 2023-07-25]
+[2023-07-25 08:03:29] [1] [INFO] Request method:	POST
+Request URI:	https://graph.facebook.com/v17.0/me/feed?access_token=EAAYKMfI5fVYBAHp2U8ElIKjYogunXs1GFyYbBCWnbDvzQl3GUSw8M7RpeBCTYbME5NuCl6RgBgZB96JimZAYtVGdHYguGipgRA3BBIHH5Y24z2tdVyqBo0aq2JsgFHROdtQQ8LQb9pdDbvJ256302mZCfeRO8WAZBvLpqXf9AWjhA47SLxHsfE7RiwXj1csZD
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "message": "Testing Post using json in Carin Framework"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+x-business-use-case-usage: {"110109102154331":[{"type":"pages","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+Access-Control-Allow-Origin: *
+facebook-api-version: v17.0
+Strict-Transport-Security: max-age=15552000; preload
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-fb-request-id: AWs4A9_Z6mHTCmvKgHQFx2I
+x-fb-trace-id: ABk4BtXayJu
+x-fb-rev: 1007896012
+X-FB-Debug: 6lfOA7+I5t72sraYA6qLZmdjHQJXwzVv2M6i1Vatxi42fsiiR++NmbPHTk2uboL451ECqslXaiLkWXmTqwLVSg==
+Date: Tue, 25 Jul 2023 08:03:29 GMT
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+Content-Length: 40
+
+{
+    "id": "110109102154331_117553604743056"
+}
+
+[2023-07-25 08:03:29] [1] [INFO] TEST [automation-course-demo - testCreatePost] PASSED at [01:03:29 2023-07-25]

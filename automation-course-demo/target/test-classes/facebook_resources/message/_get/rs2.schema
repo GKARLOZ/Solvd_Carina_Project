@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "created_time": {
+            "type": "string",
+            "format": "skip"
+          },
+          "message": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          }
+        },
+        "required": ["created_time", "message", "id"]
+      }
+    },
+    "paging": {
+      "type": "object",
+      "properties": {
+        "cursors": {
+          "type": "object",
+          "properties": {
+            "before": {
+              "type": "string"
+            },
+            "after": {
+              "type": "string"
+            }
+          },
+          "required": ["before", "after"]
+        },
+        "next": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": ["cursors", "next"]
+    }
+  },
+  "required": ["data", "paging"]
+}

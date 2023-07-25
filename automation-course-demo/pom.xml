@@ -5,10 +5,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.solvd.qa</groupId>
-	<artifactId>automation-course-demo</artifactId>
+	<artifactId>test-automation</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
-	<name>automation-course-demo</name>
+	<name>test-automation</name>
 	<url>https://solvd.com</url>
 
 	<properties>
@@ -152,18 +152,18 @@
 					</artifactItems>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.1.0</version>
-				<configuration>
-					<argLine>-javaagent:${project.build.directory}/agent/zebrunner-agent.jar</argLine>
-					<useSystemClassLoader>false</useSystemClassLoader>
-					<suiteXmlFiles>
-						<suiteXmlFile>${project.build.directory}/test-classes/testng_suites/${suite}.xml</suiteXmlFile>
-					</suiteXmlFiles>
-				</configuration>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-surefire-plugin</artifactId>-->
+<!--				<version>3.1.0</version>-->
+<!--				<configuration>-->
+<!--&lt;!&ndash;					<argLine>-javaagent:${project.build.directory}/agent/zebrunner-agent.jar</argLine>&ndash;&gt;-->
+<!--					<useSystemClassLoader>false</useSystemClassLoader>-->
+<!--					<suiteXmlFiles>-->
+<!--						<suiteXmlFile>${project.build.directory}/test-classes/testng_suites/${suite}.xml</suiteXmlFile>-->
+<!--					</suiteXmlFiles>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 		</plugins>
 	</build>
 </project>

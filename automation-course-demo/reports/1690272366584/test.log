@@ -1,0 +1,25 @@
+[2023-07-25 08:06:06] [1] [INFO] 
+============= Basic configuration =============
+env=EBAY
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://www.ebay.com/
+selenium_url=http://localhost:4444/wd/hub
+auto_screenshot=true
+init_retry_count=2
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+browserName=chrome
+===============================================
+
+[2023-07-25 08:06:06] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-25 08:06:10] [1] [INFO] [TestNG] Running:
+  C:\Users\gianm\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[2023-07-25 08:06:10] [1] [INFO] Set thread-count=1
+[2023-07-25 08:06:10] [1] [INFO] Set data-provider-thread-count=1
+[2023-07-25 08:06:10] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2023-07-25 08:07:00] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-07-25 08:07:00] [1] [INFO] RESULT #1: TEST [automation-course-demo - testEbayMobilePhones] FAIL [screenshots=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690272366584/5391654b-d55a-46eb-a27d-2e3ec4b60467/report.html | log=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690272366584/5391654b-d55a-46eb-a27d-2e3ec4b60467/test.log]

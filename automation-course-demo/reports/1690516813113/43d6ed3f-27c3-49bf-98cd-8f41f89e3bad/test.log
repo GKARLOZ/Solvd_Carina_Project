@@ -1,0 +1,77 @@
+[2023-07-28 04:00:16] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-28 04:00:16] [1] [INFO] TEST [automation-course-demo - testCreatePost] STARTED at [21:00:16 2023-07-27]
+[2023-07-28 04:00:19] [1] [INFO] Request method:	POST
+Request URI:	https://graph.facebook.com/v17.0/me/feed?access_token=EAAYKMfI5fVYBAHZBtTYfJRaMHrZAnRvDdL7DFrNZAy7ZBjYXVf1G3OQloBQdDqGuDz9SQGx0qbLinajX3nSiZCIPMMyjueeN9R1fTEJbU43xEkgIxmvyZCIeNtqZAZCEynkruVlBhVEkJa26Wq9Fyk3zQkb4k8DLIJsCz3aCgXnPPge3z84YHgCjfZCzwSnIEtOUZD
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "message": "Testing Post using json in Carin Framework"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+x-business-use-case-usage: {"110109102154331":[{"type":"pages","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+Access-Control-Allow-Origin: *
+facebook-api-version: v17.0
+Strict-Transport-Security: max-age=15552000; preload
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-fb-request-id: Abiha6-y3T89BmJf4pEG7uj
+x-fb-trace-id: G/uyrHIDBMU
+x-fb-rev: 1007916986
+X-FB-Debug: vO6j+hTPrRQPTmvQtU9ptnzBiBTT3vc5WtzzOXWVpb/ObVYTI9A04bolOfaL4aoryfq4BOd47Fh+jqKe1AQkJQ==
+Date: Fri, 28 Jul 2023 04:00:19 GMT
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+Content-Length: 40
+
+{
+    "id": "110109102154331_119547291210354"
+}
+
+[2023-07-28 04:00:19] [1] [ERROR] TEST [automation-course-demo - testCreatePost] FAILED at [21:00:19 2023-07-27] - id
+Expected: 
+     got: 110109102154331_119547291210354
+
+
+org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:482)
+org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:464)
+com.zebrunner.carina.api.AbstractApiMethodV2.validateResponse(AbstractApiMethodV2.java:339)
+com.zebrunner.carina.api.AbstractApiMethodV2.validateResponse(AbstractApiMethodV2.java:299)
+com.zebrunner.carina.api.AbstractApiMethodV2.validateResponse(AbstractApiMethodV2.java:363)
+com.solvd.qa.carina.solvd_test.APITest.testCreatePost(APITest.java:25)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)

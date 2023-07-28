@@ -16,10 +16,10 @@ public class GSMPage extends GSMPageBase {
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
     @FindBy(xpath = "//*[@id=\"body\"]/aside/div[5]/table/tbody//th")
     private ExtendedWebElement dailyHits;
+
     public GSMPage(WebDriver driver) {
         super(driver);
     }
-
     public GSMPage(WebDriver driver, String url){
         super(driver);
         setPageAbsoluteURL(url);
@@ -41,8 +41,5 @@ public class GSMPage extends GSMPageBase {
             }
         }
     }
-
-
-
 
 }

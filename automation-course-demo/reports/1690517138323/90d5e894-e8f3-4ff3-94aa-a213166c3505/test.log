@@ -1,0 +1,21 @@
+[2023-07-28 04:07:36] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-28 04:07:36] [1] [INFO] TEST [automation-course-demo - testUserFlow] STARTED at [21:07:36 2023-07-27]
+[2023-07-28 04:07:36] [1] [INFO] Starting driver session...
+[2023-07-28 04:07:38] [1] [INFO] Driver session started.
+[2023-07-28 04:07:38] [1] [INFO] INFO: opening url 'https://petstore.com/'
+[2023-07-28 04:07:50] [1] [INFO] PASS: element 'popUp' is clicked.
+[2023-07-28 04:07:51] [1] [INFO] PASS: element 'login' is clicked.
+[2023-07-28 04:07:51] [1] [INFO] PASS: keys 'juanito_otinauj@gmail.com' are sent to element 'emailTextField'.
+[2023-07-28 04:07:54] [1] [INFO] PASS: keys '12345!@#$' are sent to element 'passwordTextField'.
+[2023-07-28 04:07:58] [1] [INFO] PASS: element 'signInButton' is clicked.
+[2023-07-28 04:07:59] [1] [INFO] PASS: element 'menuButton' is clicked.
+[2023-07-28 04:07:59] [1] [INFO] selecting Dog category >>>
+[2023-07-28 04:08:00] [1] [INFO] PASS: element 'categoryLinks0' is clicked.
+[2023-07-28 04:08:00] [1] [INFO] selecting EXERCISE BALL FOR HAMSTERS AND SMALL PETS
+DISCOUNT PET SUPPLY
+Regular price
+$5.99
+Sale price
+$3.49 Save $2.50 product >>>
+[2023-07-28 04:08:01] [1] [INFO] PASS: element 'By.xpath: //*[@id="CollectionSection"]/div[2]/div[1]/div/a' is clicked.
+[2023-07-28 04:08:01] [1] [INFO] TEST [automation-course-demo - testUserFlow] PASSED at [21:08:01 2023-07-27]

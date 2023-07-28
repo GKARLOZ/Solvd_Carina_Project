@@ -1,0 +1,54 @@
+[2023-07-28 04:02:28] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-28 04:02:28] [1] [INFO] TEST [automation-course-demo - testGetLastPosts] STARTED at [21:02:28 2023-07-27]
+[2023-07-28 04:02:29] [1] [INFO] Request method:	GET
+Request URI:	https://graph.facebook.com/v17.0%2F%2Fme/feed?access_token=EAAYKMfI5fVYBAHZBtTYfJRaMHrZAnRvDdL7DFrNZAy7ZBjYXVf1G3OQloBQdDqGuDz9SQGx0qbLinajX3nSiZCIPMMyjueeN9R1fTEJbU43xEkgIxmvyZCIeNtqZAZCEynkruVlBhVEkJa26Wq9Fyk3zQkb4k8DLIJsCz3aCgXnPPge3z84YHgCjfZCzwSnIEtOUZD&limit=1
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Encoding: gzip
+ETag: "3ae81d16442088ce5693edb2e6c642bb35bbc614"
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: Accept-Encoding
+x-business-use-case-usage: {"110109102154331":[{"type":"pages","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+Access-Control-Allow-Origin: *
+facebook-api-version: v17.0
+Strict-Transport-Security: max-age=15552000; preload
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+x-fb-request-id: AvH6RqYdmricLx8EXZ3LXYj
+x-fb-trace-id: ESO/kwYMA4a
+x-fb-rev: 1007916986
+X-FB-Debug: YE4ka2OLSh6J0T9IXYx4ZYDknW5QyP/ZFG6uc2rhEBjnD5GSiec8b9FbTgxOLfqFp0scZtrIb3fIgBrkGF0QiQ==
+Date: Fri, 28 Jul 2023 04:02:29 GMT
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+Content-Length: 1536
+
+{
+    "data": [
+        {
+            "created_time": "2023-07-28T04:00:18+0000",
+            "message": "Testing Post using json in Carin Framework",
+            "id": "110109102154331_119547291210354"
+        }
+    ],
+    "paging": {
+        "cursors": {
+            "before": "QVFIUk0xMExsZAzZAjLTZA0RllVVng1REQ4NzJReUt2UWFzSjZAZAQmxkc1RRWDl1cVdIazUtN3NwUjZA0c0RFdEpOQmFGMXJldkJlWVRWb1dHZAjFCRnFBRkp0cXFJWGdERzQ0eW01S09EWGJtX3J6eHNTSDM1VDgyT2IxMFFGOVE1a21lRGdSUWJ3b2FwSTdqaS1EZAVlCRURZAdEFib05sbnRlWnlzTVcyWmp2ZAjRzendGZAWJlcWRrSmxLeUpqY1lJRDdoVHRWek1VS1BNZAnhHU2NmTE96bkFKeGF0RU9ZANjJOc0p4MjY3ZA2s0OU9aV2hvRUtWalhjWV9LYWM3UlFrWGIxYUdUcDZAUczE1TDc2WE9rS1d4dWlvRzRWM2JLT180TEoyb3JvRGJFbU4tY3I1R1RhMFpBbTF1MTNTUmFTazZA0ckowQzRMdEtFWEdfclRGNVdwMm1GdmtYdThoc2hvQmFrNkJZAMjI3M3lBQ3MtNW5jVGtjOFNiRk1fVmtmRXBkSVJKNF9NZAmI4bGNWM2VtZA05UNzJPNkJGMXd3dEpXeUFiTEFKNjd2Mm9MeGtnTFFUR2VkbHhzQ29CeE5fQS0zakV4R2pKdldsZAUpqTTc5WEJYeDNCWmI5TWhjaF92cHVweG5qaHJRMG9xelVoamszX21VLURhZAEJlV0ROb2dFYlpNMGpMYnhzeFZA5OW9qZAVN4enkyekRwN2pBdEY3dwZDZD",
+            "after": "QVFIUno3cS1kb1BaVjcwUnJnQkFkczZABX2V2Y1hBTzBMQUc1Ui1UZA1duTGxpNGxjRGRCRHpGanU3MEpNSXZANY25FNVBCMmQyZAWtWSFhtR2Q0R0diM043UGl6bjFVdnJkdHJPZA0daUEctaFBQLWRGY3FIWk01dGJJU0FDUkRrcENzclljUFN2QjAwTzdrVElDUTE2aWR1ZAjZAPcFh3OVZAGS25hMHlvendFOTFjMGwyZAWhfNkRtTDhLOVcyV0M1bFJWbVV5d0xyb0pCTGJQX05qa1J0WVpWYUkxMzVJZA0JzWGRkbW9vUVA2b0toSFFyWTN5T0ZAra2ZAmVjdmRm5FVEZABaXoyRlR0TDN5OXplc2Fkb1B4elcwVmM5M3ZATSUpNa1N3MTBnVTJMZA2JDMHhvYXFJVVpFRzFfbXU2c1pXZAHZArckxVTTcyZAEc2bjBTOWViQ3p1VHdLV0RHYS1zcm9INGwxbGh6Xy1WdjV1enYwQWliTWUyS1BqMjJxamE5Tm55QldQeFlyZAU9GMm1vWkh2dW9MTlo2c200dDdkcjRoTWJ0d3lubmdhSk1ueTFpOC0ydkxjX3duMTIzYXFybTFjbVZAPdXQxa2NxcjlRX3hEYVl5azJzdTh0aU9YYjlNTnlXQnNkNEdGSGd5WnBVQ3pha1M1MkdOOHRMRVdaV3M2NjRtNFhlUVZAQdTdOTjJPdVIxeXdOTzZAoeXhzUkpnUQZDZD"
+        },
+        "next": "https://graph.facebook.com/v17.0/110109102154331/feed?access_token=EAAYKMfI5fVYBAHZBtTYfJRaMHrZAnRvDdL7DFrNZAy7ZBjYXVf1G3OQloBQdDqGuDz9SQGx0qbLinajX3nSiZCIPMMyjueeN9R1fTEJbU43xEkgIxmvyZCIeNtqZAZCEynkruVlBhVEkJa26Wq9Fyk3zQkb4k8DLIJsCz3aCgXnPPge3z84YHgCjfZCzwSnIEtOUZD&limit=1&after=QVFIUno3cS1kb1BaVjcwUnJnQkFkczZABX2V2Y1hBTzBMQUc1Ui1UZA1duTGxpNGxjRGRCRHpGanU3MEpNSXZANY25FNVBCMmQyZAWtWSFhtR2Q0R0diM043UGl6bjFVdnJkdHJPZA0daUEctaFBQLWRGY3FIWk01dGJJU0FDUkRrcENzclljUFN2QjAwTzdrVElDUTE2aWR1ZAjZAPcFh3OVZAGS25hMHlvendFOTFjMGwyZAWhfNkRtTDhLOVcyV0M1bFJWbVV5d0xyb0pCTGJQX05qa1J0WVpWYUkxMzVJZA0JzWGRkbW9vUVA2b0toSFFyWTN5T0ZAra2ZAmVjdmRm5FVEZABaXoyRlR0TDN5OXplc2Fkb1B4elcwVmM5M3ZATSUpNa1N3MTBnVTJMZA2JDMHhvYXFJVVpFRzFfbXU2c1pXZAHZArckxVTTcyZAEc2bjBTOWViQ3p1VHdLV0RHYS1zcm9INGwxbGh6Xy1WdjV1enYwQWliTWUyS1BqMjJxamE5Tm55QldQeFlyZAU9GMm1vWkh2dW9MTlo2c200dDdkcjRoTWJ0d3lubmdhSk1ueTFpOC0ydkxjX3duMTIzYXFybTFjbVZAPdXQxa2NxcjlRX3hEYVl5azJzdTh0aU9YYjlNTnlXQnNkNEdGSGd5WnBVQ3pha1M1MkdOOHRMRVdaV3M2NjRtNFhlUVZAQdTdOTjJPdVIxeXdOTzZAoeXhzUkpnUQZDZD"
+    }
+}
+
+[2023-07-28 04:02:29] [1] [INFO] JSON schema of version higher than draft-04 was detected
+[2023-07-28 04:02:29] [1] [INFO] TEST [automation-course-demo - testGetLastPosts] PASSED at [21:02:29 2023-07-27]

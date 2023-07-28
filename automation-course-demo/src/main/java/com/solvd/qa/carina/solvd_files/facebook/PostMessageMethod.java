@@ -10,8 +10,8 @@ import com.zebrunner.carina.api.http.HttpResponseStatusType;
 import com.zebrunner.carina.utils.config.Configuration;
 
 @Endpoint(url = "${base_url}me/feed?access_token=${token}", methodType = HttpMethodType.POST)
-@RequestTemplatePath(path = "facebook_resources/message/_post/rq2.json")
-@ResponseTemplatePath(path = "facebook_resources/message/_post/rs2.json")
+@RequestTemplatePath(path = "facebookresources/message/_post/rq2.json")
+@ResponseTemplatePath(path = "facebookresources/message/_post/rs2.json")
 @SuccessfulHttpStatus(status = HttpResponseStatusType.OK_200)
 public class PostMessageMethod extends AbstractApiMethodV2 {
         public PostMessageMethod(){

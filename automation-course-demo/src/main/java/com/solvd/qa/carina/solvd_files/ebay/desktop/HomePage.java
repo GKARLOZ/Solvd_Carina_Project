@@ -1,7 +1,6 @@
 package com.solvd.qa.carina.solvd_files.ebay.desktop;
 
 import com.solvd.qa.carina.solvd_files.ebay.common.HomePageBase;
-import com.solvd.qa.carina.solvd_files.ebay.common.ShopByCategoryPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.WebDriver;
@@ -19,10 +18,9 @@ public class HomePage extends HomePageBase {
     @FindBy(xpath = "//ul[contains(@class, 'vl-flyout-nav__container')]//a")
     private List<ExtendedWebElement> menuLinks;
     @FindBy(xpath = "//section[contains(@class, 'b-module')][2]/ul/li")
-   private List<ExtendedWebElement> categoryLinks;
-
-   @FindBy(xpath = ".//input[@type='submit']")
-   private ExtendedWebElement searchButton;
+    private List<ExtendedWebElement> categoryLinks;
+    @FindBy(xpath = ".//input[@type='submit']")
+    private ExtendedWebElement searchButton;
     @FindBy(xpath = ".//input[@type='text']")
     private ExtendedWebElement searchTextField;
 
@@ -34,23 +32,23 @@ public class HomePage extends HomePageBase {
         setPageAbsoluteURL(url);
     }
 
-    public ShopByCategoryPageBase selectFromMenu(String link) {
+    public ShopByCategoryPage selectFromMenu(String link) {
         LOGGER.info("selecting " + link + " menu link >>>");
         for (ExtendedWebElement cl : menuLinks) {
             String currentLink = cl.getText();
-            System.out.println("menu : "+ currentLink);
             if(link.equalsIgnoreCase(currentLink)){
                 cl.click();
-                return initPage(driver, ShopByCategoryPageBase.class);
+                return new ShopByCategoryPage(driver);
             }
         }
         LOGGER.error("Unable to open Menu: " + link);
-        return null;    }
+        return null;
+    }
 
-    public ShopByCategoryPageBase searchItem(String q){
+    public ShopByCategoryPage searchItem(String q){
         searchTextField.type(q);
         searchButton.click();
-        return initPage(driver, ShopByCategoryPageBase.class);
+        return new ShopByCategoryPage(driver);
 
     }
 

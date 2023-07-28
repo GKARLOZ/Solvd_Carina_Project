@@ -6,11 +6,11 @@ import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.lang.invoke.MethodHandles;
-import java.util.HashMap;
 import java.util.List;
 
 @DeviceType(pageType = DeviceType.Type.DESKTOP, parentClass = ShopByCategoryPageBase.class)
@@ -19,21 +19,16 @@ public class ShopByCategoryPage extends ShopByCategoryPageBase {
 
     @FindBy(xpath = "//section[contains(@class, 'b-module')][2]/ul/li")
     private List<ExtendedWebElement> categoryLinks;
-
-   @FindBy(xpath = "//section[2]/ul//li/a")
+    @FindBy(xpath = "//section[2]/ul//li/a")
     private List<ExtendedWebElement> innerCategoryLinks;
-
     @FindBy(xpath = "//*[@id=\"mainContent\"]/section[2]//a")
     private List<ExtendedWebElement> brandList;
-
     @FindBy(xpath = "//span[@class=\"s-item__price\"]")
     private List<ExtendedWebElement> prices;
-
-   @FindBy(xpath = "//div[@class=\"s-item__info clearfix\"]")
+    @FindBy(xpath = "//div[@class=\"s-item__info clearfix\"]")
     private List<ExtendedWebElement> mobilePhones;
-
-   @FindBy(xpath = "//div[@class=\"s-item__info clearfix\"]//span[@role=\"heading\"]")
-   private List<ExtendedWebElement> itemList;
+    @FindBy(xpath = "//div[@class=\"s-item__info clearfix\"]//span[@role=\"heading\"]")
+    private List<ExtendedWebElement> itemList;
 
    @FindBy(xpath="//*[@id=\"s0-53-17-0-1-2-6-1-8[3]-0-textrange-endParamValue-textbox\"]")
    private ExtendedWebElement max;
@@ -41,8 +36,6 @@ public class ShopByCategoryPage extends ShopByCategoryPageBase {
    @FindBy(xpath = "//*[@id=\"s0-53-17-0-1-2-6-1-8[3]-0-textrange\"]/div/div[3]/button")
    private ExtendedWebElement button;
 
-
-   private HashMap<String,String> itemAndPriceList;
 
     public ShopByCategoryPage(WebDriver driver) {
         super(driver);
@@ -53,47 +46,55 @@ public class ShopByCategoryPage extends ShopByCategoryPageBase {
         setPageAbsoluteURL(url);
     }
 
+    public List<ExtendedWebElement> getPrices(){
+        return prices;
+    }
 
-    public ShopByCategoryPageBase selectCategory(String category) {
+    public List<ExtendedWebElement> getCategoryLinks(){
+        return categoryLinks;
+    }
+
+
+    public void selectCategory(String category) {
         LOGGER.info("selecting " + category + " category >>>");
         for (ExtendedWebElement cl : categoryLinks) {
             String currentCategory = cl.getText();
             if(category.equalsIgnoreCase(currentCategory)){
+                waitUntil(ExpectedConditions.elementToBeClickable(cl.getElement()), 20000);
                 cl.click();
-                return initPage(driver, ShopByCategoryPageBase.class);
+//                cl.pause(10);
+                break;
             }
         }
-        LOGGER.error("Unable to open category: " + category);
-        return null;
 
     }
 
-    public ShopByCategoryPageBase selectInnerCategory(String category) {
+    public void selectInnerCategory(String category) {
 
         LOGGER.info("selecting " + category + " category >>>");
         for (ExtendedWebElement cl : innerCategoryLinks) {
             String currentCategory = cl.getText();
             if(category.equalsIgnoreCase(currentCategory)){
+                waitUntil(ExpectedConditions.elementToBeClickable(cl.getElement()),20000);
                 cl.click();
 //                cl.pause(10);
-                return initPage(driver, ShopByCategoryPageBase.class);
+                break;
+
             }
         }
-        LOGGER.error("Unable to open category: " + category);
-        return null;
     }
 
-    public ShopByCategoryPageBase selectBrand(String brand){
+    public void selectBrand(String brand){
         for(ExtendedWebElement b: brandList){
             String currentBrand = b.getText();
             if(brand.equalsIgnoreCase(currentBrand)){
+                waitUntil(ExpectedConditions.elementToBeClickable(b.getElement()),20000);
                 b.click();
-                b.pause(5);
-                return initPage(driver,ShopByCategoryPageBase.class);
+//                b.pause(15);
+                break;
+
             }
         }
-        LOGGER.error("Unable to open brand: " + brand);
-        return null;
 
     }
     public void getItemAndPrice(){
@@ -114,18 +115,17 @@ public class ShopByCategoryPage extends ShopByCategoryPageBase {
         for(ExtendedWebElement pricesX: prices){
            LOGGER.info(pricesX.getText());
         }
+
     }
 
-    public ShopByCategoryPageBase maxPrice(String s){
+    public void maxPrice(String s){
         max.type(s);
         button.click();
-        return initPage(driver,ShopByCategoryPageBase.class);
-
+        pause(5);
     }
 
 
     public void printAllCategories() {
-
         for (ExtendedWebElement cl : categoryLinks) {
             cl.click();
             LOGGER.info(cl.getText());

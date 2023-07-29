@@ -1,0 +1,25 @@
+[2023-07-29 03:34:16] [1] [INFO] 
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://petstore.com/
+selenium_url=http://localhost:4444/wd/hub
+auto_screenshot=true
+init_retry_count=2
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+browserName=chrome
+===============================================
+
+[2023-07-29 03:34:16] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-29 03:34:19] [1] [INFO] [TestNG] Running:
+  C:\Users\gianm\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[2023-07-29 03:34:19] [1] [INFO] Set thread-count=1
+[2023-07-29 03:34:19] [1] [INFO] Set data-provider-thread-count=1
+[2023-07-29 03:34:19] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2023-07-29 03:36:03] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-07-29 03:36:03] [1] [INFO] RESULT #1: TEST [automation-course-demo - TestCartItems [L01]] PASS [screenshots=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690601656801/4bd82ab2-8678-42f9-8ba7-7c38bf51df84/report.html | log=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690601656801/4bd82ab2-8678-42f9-8ba7-7c38bf51df84/test.log]
+[2023-07-29 03:36:03] [1] [INFO] RESULT #2: TEST [automation-course-demo - TestCartItems [L02]] PASS [screenshots=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690601656801/7111270c-a576-4383-a363-b153203df908/report.html | log=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690601656801/7111270c-a576-4383-a363-b153203df908/test.log]
+[2023-07-29 03:36:03] [1] [INFO] RESULT #3: TEST [automation-course-demo - TestCartItems [L03]] PASS [screenshots=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690601656801/8f159354-a3b8-4522-b22f-d041fd71e23f/report.html | log=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690601656801/8f159354-a3b8-4522-b22f-d041fd71e23f/test.log]

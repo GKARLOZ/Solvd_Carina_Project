@@ -1,0 +1,16 @@
+[2023-07-29 03:40:50] [1] [INFO] TEST [automation-course-demo - TestListOfProducts [L02]] STARTED at [20:40:50 2023-07-28]
+[2023-07-29 03:40:50] [1] [INFO] Starting driver session...
+[2023-07-29 03:40:52] [1] [INFO] Driver session started.
+[2023-07-29 03:40:52] [1] [INFO] INFO: opening url 'https://petstore.com/'
+[2023-07-29 03:41:04] [1] [INFO] PASS: element 'popUp' is clicked.
+[2023-07-29 03:41:05] [1] [INFO] PASS: element 'menuButton' is clicked.
+[2023-07-29 03:41:05] [1] [INFO] selecting Bird category >>>
+[2023-07-29 03:41:06] [1] [INFO] PASS: element 'By.xpath: //*[@id="NavDrawer"]/div/div[2]/ul[1]/li[5]/div[1]/div/button' is clicked.
+[2023-07-29 03:41:06] [1] [INFO] selecting Treats category >>>
+[2023-07-29 03:41:08] [1] [INFO] PASS: element 'innerCategoryLinks64' is clicked.
+[2023-07-29 03:41:09] [1] [INFO] PASS: element 'menuButton' is clicked.
+[2023-07-29 03:41:09] [1] [INFO] selecting Cat category >>>
+[2023-07-29 03:41:10] [1] [INFO] PASS: element 'By.xpath: //*[@id="NavDrawer"]/div/div[2]/ul[1]/li[2]/div[1]/div/button' is clicked.
+[2023-07-29 03:41:10] [1] [INFO] selecting Toys category >>>
+[2023-07-29 03:41:12] [1] [INFO] PASS: element 'innerCategoryLinks30' is clicked.
+[2023-07-29 03:41:13] [1] [INFO] TEST [automation-course-demo - TestListOfProducts [L02]] PASSED at [20:41:13 2023-07-28]

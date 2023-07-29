@@ -5,132 +5,138 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63436041-e454-401b-8843-cad027cab68d" name="Changes" comment="_config file edited">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/components/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/components/HeaderBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/common/AccountPageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/common/CartPageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/common/CreateAccountPageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/common/LogInPageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/common/MultipleProductsPageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/common/PetHomePageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/common/ProductPageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/desktop/AccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/desktop/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/desktop/CreateAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/desktop/LogInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/desktop/MultipleProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/desktop/PetHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/petstore/pages/desktop/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/solvd_test/SimpleWebTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/solvd_test/WebTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/facebookresources/message/_post/rs2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/solvd_test/IOpenAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/solvd_test/IPick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273040103/813ffe90-c917-432e-bb45-9eca5d55cbde/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273040103/969f44f9-87da-43b1-89ab-218ad9fdf31c/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273040103/e27e604d-938c-4f43-98da-7e2f9c2d19f4/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273040103/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273040103/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/5e1df4f7-a6b4-4779-b669-8a4f25b91fd1/1690273196136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/5e1df4f7-a6b4-4779-b669-8a4f25b91fd1/1690273199007.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/5e1df4f7-a6b4-4779-b669-8a4f25b91fd1/1690273200001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/5e1df4f7-a6b4-4779-b669-8a4f25b91fd1/1690273203136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/5e1df4f7-a6b4-4779-b669-8a4f25b91fd1/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/5e1df4f7-a6b4-4779-b669-8a4f25b91fd1/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273152902.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273153441.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273156329.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273157172.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273157738.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273158273.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273158875.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273159469.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273160000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273160697.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273161458.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273161851.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273162184.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273162523.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273162864.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273163198.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273163571.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273163903.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273164225.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273164548.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273164867.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/1690273165187.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/a44fd976-7f2e-429a-a80e-9c688a135995/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/d5c2fa07-5f4e-4a64-be38-ae3d47e7e54a/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/eda8dbb1-29e8-43f1-935b-3f9c87857327/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273123169/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273267474/1f5a854b-acbe-4004-861e-433101c53732/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273267474/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273267474/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273336860/d4acc547-debe-46f3-8e2f-ec98b1bd4f20/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273336860/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273336860/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273403900/6b4e240b-556f-4ba3-86ac-8c0e4f27422f/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273403900/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273403900/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273439910/6d26cba5-55d9-46a6-9eea-83ebc6312f93/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273439910/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273439910/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273460442/d8fc0a01-949d-44da-ac3a-ac38924e1700/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273460442/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273460442/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/1d3b7798-7b93-4f2f-888b-0fb6be3afc86/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273575983.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273576682.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273579964.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273580599.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273581167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273581692.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273582306.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273582904.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273583415.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273584076.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273584896.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273585356.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273585703.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273586016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273586350.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273586684.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273587022.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273587351.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273587689.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273588048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273588402.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/1690273588763.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/3f56f106-13f5-4f31-8c50-26e8109fa9fc/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/553a784b-9de7-4f11-b61d-96f0f23f6f6c/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/8eb4411d-d558-4aa0-a6ec-92d9b69b2e5b/1690273620389.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/8eb4411d-d558-4aa0-a6ec-92d9b69b2e5b/1690273623252.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/8eb4411d-d558-4aa0-a6ec-92d9b69b2e5b/1690273624345.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/8eb4411d-d558-4aa0-a6ec-92d9b69b2e5b/1690273627223.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/8eb4411d-d558-4aa0-a6ec-92d9b69b2e5b/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/8eb4411d-d558-4aa0-a6ec-92d9b69b2e5b/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/1690273543171/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516768425/26b9398e-cddd-416b-bbe4-2335d108b97b/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516768425/9d0b2bb0-9cf7-41f5-96e9-0aa87ea53600/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516768425/b147974b-6f1c-4c34-84a1-b18af84e6c3e/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516768425/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516768425/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516813113/43d6ed3f-27c3-49bf-98cd-8f41f89e3bad/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516813113/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516813113/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516869533/af4e262d-c048-43ae-b865-d60f17292d10/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516869533/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516869533/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516909880/4e2ac544-901d-4e26-bc73-c6497ff15508/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516909880/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516909880/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516938860/34733a06-4cea-492e-90f0-727072360b99/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516938860/5aa4e3c8-236a-4616-9da4-0088759b308a/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516938860/ca335d26-2a4b-448b-b6e7-89d304c2183d/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516938860/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690516938860/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517005083/07c2d91b-a549-4779-a43d-76a8f14bb650/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517005083/0dcb2d36-4cfa-4ad9-b4df-2941b073e8b0/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517005083/2d5f77fc-9f76-4721-bd42-774ec2a24b07/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517005083/e7ce02a8-3b48-4101-b9da-d8e2df7cd0d7/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517005083/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517005083/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/0a5f614f-84de-49fb-97cc-42053979f597/1690517074567.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/0a5f614f-84de-49fb-97cc-42053979f597/1690517077040.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/0a5f614f-84de-49fb-97cc-42053979f597/1690517077556.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/0a5f614f-84de-49fb-97cc-42053979f597/1690517079695.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/0a5f614f-84de-49fb-97cc-42053979f597/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/0a5f614f-84de-49fb-97cc-42053979f597/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/3234b6dd-0a0c-41d0-8e93-36f1efe0c458/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517042041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517042699.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517045300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517046104.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517046495.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517046874.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517047315.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517047749.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517048164.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517048688.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517049359.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517049733.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517050032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517050296.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517050595.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517050885.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517051180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517051467.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517051768.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517052040.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517052312.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/1690517052590.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/376da4a3-31e1-4a25-998c-bc6138e4c4f1/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/7f784162-a4e8-4b68-a175-b2762d4448fd/1690517058407.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/7f784162-a4e8-4b68-a175-b2762d4448fd/1690517059270.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/7f784162-a4e8-4b68-a175-b2762d4448fd/1690517062120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/7f784162-a4e8-4b68-a175-b2762d4448fd/1690517062689.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/7f784162-a4e8-4b68-a175-b2762d4448fd/1690517066870.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/7f784162-a4e8-4b68-a175-b2762d4448fd/1690517069632.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/7f784162-a4e8-4b68-a175-b2762d4448fd/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/7f784162-a4e8-4b68-a175-b2762d4448fd/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517031667/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/19220955-c0ef-474c-8148-cd008d84b458/1690517189907.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/19220955-c0ef-474c-8148-cd008d84b458/1690517190642.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/19220955-c0ef-474c-8148-cd008d84b458/1690517191705.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/19220955-c0ef-474c-8148-cd008d84b458/1690517193721.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/19220955-c0ef-474c-8148-cd008d84b458/1690517194221.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/19220955-c0ef-474c-8148-cd008d84b458/1690517195139.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/19220955-c0ef-474c-8148-cd008d84b458/1690517196086.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/19220955-c0ef-474c-8148-cd008d84b458/1690517197390.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/19220955-c0ef-474c-8148-cd008d84b458/1690517199153.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/19220955-c0ef-474c-8148-cd008d84b458/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/19220955-c0ef-474c-8148-cd008d84b458/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/90d5e894-e8f3-4ff3-94aa-a213166c3505/1690517270584.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/90d5e894-e8f3-4ff3-94aa-a213166c3505/1690517271422.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/90d5e894-e8f3-4ff3-94aa-a213166c3505/1690517271707.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/90d5e894-e8f3-4ff3-94aa-a213166c3505/1690517274989.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/90d5e894-e8f3-4ff3-94aa-a213166c3505/1690517278247.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/90d5e894-e8f3-4ff3-94aa-a213166c3505/1690517279772.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/90d5e894-e8f3-4ff3-94aa-a213166c3505/1690517280794.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/90d5e894-e8f3-4ff3-94aa-a213166c3505/1690517281718.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/90d5e894-e8f3-4ff3-94aa-a213166c3505/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/90d5e894-e8f3-4ff3-94aa-a213166c3505/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/a36664c3-3b0b-4654-b6a8-7b678a63fd8f/1690517247508.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/a36664c3-3b0b-4654-b6a8-7b678a63fd8f/1690517248413.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/a36664c3-3b0b-4654-b6a8-7b678a63fd8f/1690517248958.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/a36664c3-3b0b-4654-b6a8-7b678a63fd8f/1690517249227.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/a36664c3-3b0b-4654-b6a8-7b678a63fd8f/1690517249515.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/a36664c3-3b0b-4654-b6a8-7b678a63fd8f/1690517249815.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/a36664c3-3b0b-4654-b6a8-7b678a63fd8f/1690517250200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/a36664c3-3b0b-4654-b6a8-7b678a63fd8f/1690517250426.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/a36664c3-3b0b-4654-b6a8-7b678a63fd8f/1690517256195.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/a36664c3-3b0b-4654-b6a8-7b678a63fd8f/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/a36664c3-3b0b-4654-b6a8-7b678a63fd8f/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/1690517155427.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/1690517156144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/1690517157575.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/1690517159994.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/1690517161376.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/1690517161793.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/1690517167241.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/1690517167779.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/1690517168269.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/1690517169516.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/1690517170957.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/1690517171251.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/e2b85308-54a1-4ae5-993f-21a460ac05c7/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/fba55b07-f7cd-4284-ab95-a0f909f8f175/1690517213445.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/fba55b07-f7cd-4284-ab95-a0f909f8f175/1690517214013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/fba55b07-f7cd-4284-ab95-a0f909f8f175/1690517214598.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/fba55b07-f7cd-4284-ab95-a0f909f8f175/1690517220321.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/fba55b07-f7cd-4284-ab95-a0f909f8f175/1690517220766.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/fba55b07-f7cd-4284-ab95-a0f909f8f175/1690517221214.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/fba55b07-f7cd-4284-ab95-a0f909f8f175/1690517226826.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/fba55b07-f7cd-4284-ab95-a0f909f8f175/1690517227228.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/fba55b07-f7cd-4284-ab95-a0f909f8f175/1690517227589.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/fba55b07-f7cd-4284-ab95-a0f909f8f175/1690517233247.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/fba55b07-f7cd-4284-ab95-a0f909f8f175/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/fba55b07-f7cd-4284-ab95-a0f909f8f175/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/1690517138323/test.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/common/HomePageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/common/HomePageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/common/ShopByCategoryPageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/common/ShopByCategoryPageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/desktop/GSMPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/desktop/GSMPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/desktop/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/desktop/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/desktop/ShopByCategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/ebay/desktop/ShopByCategoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/facebook/DeletePostMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/facebook/DeletePostMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/facebook/GetEmailsMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/facebook/GetPostsMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/facebook/GetPostsMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/facebook/PostMessageMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/qa/carina/solvd_files/facebook/PostMessageMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/_config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/solvd_test/ebay_Web/WebTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/solvd_test/facebook_API/APITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/solvd_test/APITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/facebook_resources/message/_delete/rs2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/facebookresources/message/_delete/rs2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/facebook_resources/message/_get/rs2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/facebookresources/message/_get/rs2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/facebook_resources/message/_get/rs2.schema" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/facebookresources/message/_get/rs2.schema" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/facebook_resources/message/_post/rq2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/facebookresources/message/_post/rq2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/facebook_resources/message/_post/rs2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/solvd_test/WebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/solvd/qa/carina/solvd_test/WebTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/solvd_test/WebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/solvd/qa/carina/solvd_test/WebTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +147,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -192,76 +199,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.WebTest">
-    <configuration name="APITest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-course-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.solvd.qa.carina.solvd_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.solvd.qa.carina.solvd_test" />
-      <option name="MAIN_CLASS_NAME" value="com.solvd.qa.carina.solvd_test.APITest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APITest.testCreatePost" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-course-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.solvd.qa.carina.solvd_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.solvd.qa.carina.solvd_test" />
-      <option name="MAIN_CLASS_NAME" value="com.solvd.qa.carina.solvd_test.APITest" />
-      <option name="METHOD_NAME" value="testCreatePost" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APITest.testDeleteLastPost" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-course-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.solvd.qa.carina.solvd_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.solvd.qa.carina.solvd_test" />
-      <option name="MAIN_CLASS_NAME" value="com.solvd.qa.carina.solvd_test.APITest" />
-      <option name="METHOD_NAME" value="testDeleteLastPost" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleWebTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-course-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.solvd.qa.carina.solvd_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.solvd.qa.carina.solvd_test" />
-      <option name="MAIN_CLASS_NAME" value="com.solvd.qa.carina.solvd_test.SimpleWebTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WebTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-course-demo" />
       <extension name="coverage">
@@ -279,13 +216,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebTest.TestCartItems" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-course-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solvd.qa.carina.solvd_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.solvd.qa.carina.solvd_test" />
+      <option name="MAIN_CLASS_NAME" value="com.solvd.qa.carina.solvd_test.WebTest" />
+      <option name="METHOD_NAME" value="TestCartItems" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest.TestCartItems2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-course-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solvd.qa.carina.solvd_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.solvd.qa.carina.solvd_test" />
+      <option name="MAIN_CLASS_NAME" value="com.solvd.qa.carina.solvd_test.WebTest" />
+      <option name="METHOD_NAME" value="TestCartItems2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest.TestListOfProducts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-course-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solvd.qa.carina.solvd_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.solvd.qa.carina.solvd_test" />
+      <option name="MAIN_CLASS_NAME" value="com.solvd.qa.carina.solvd_test.WebTest" />
+      <option name="METHOD_NAME" value="TestListOfProducts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTest.TestSearchResults" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-course-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solvd.qa.carina.solvd_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.solvd.qa.carina.solvd_test" />
+      <option name="MAIN_CLASS_NAME" value="com.solvd.qa.carina.solvd_test.WebTest" />
+      <option name="METHOD_NAME" value="TestSearchResults" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.WebTest" />
-        <item itemvalue="TestNG.SimpleWebTest" />
-        <item itemvalue="TestNG.APITest" />
-        <item itemvalue="TestNG.APITest.testDeleteLastPost" />
-        <item itemvalue="TestNG.APITest.testCreatePost" />
+        <item itemvalue="TestNG.WebTest.TestListOfProducts" />
+        <item itemvalue="TestNG.WebTest.TestCartItems" />
+        <item itemvalue="TestNG.WebTest.TestSearchResults" />
+        <item itemvalue="TestNG.WebTest.TestCartItems2" />
       </list>
     </recent_temporary>
   </component>

@@ -1,0 +1,15 @@
+[2023-07-29 03:45:49] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-29 03:45:49] [1] [INFO] TEST [automation-course-demo - testCreateAccount] STARTED at [20:45:49 2023-07-28]
+[2023-07-29 03:45:49] [1] [INFO] Starting driver session...
+[2023-07-29 03:45:50] [1] [INFO] Driver session started.
+[2023-07-29 03:45:50] [1] [INFO] INFO: opening url 'https://petstore.com/'
+[2023-07-29 03:46:02] [1] [INFO] PASS: element 'popUp' is clicked.
+[2023-07-29 03:46:05] [1] [INFO] PASS: element 'login' is clicked.
+[2023-07-29 03:46:06] [1] [INFO] PASS: element 'createAccount' is clicked.
+[2023-07-29 03:46:06] [1] [INFO] PASS: keys 'Charles' are sent to element 'firstNameTextField'.
+[2023-07-29 03:46:06] [1] [INFO] PASS: keys 'Xaiver' are sent to element 'lastNameTextField'.
+[2023-07-29 03:46:07] [1] [INFO] PASS: keys 'ff181dbf-7428-4b1e-88ad-7efce1b96a6e@gmail.com' are sent to element 'emailTextField'.
+[2023-07-29 03:46:07] [1] [INFO] PASS: keys 'ff181dbf-7428-4b1e-88ad-7efce1b96a6e' are sent to element 'passwordTextField'.
+[2023-07-29 03:46:07] [1] [INFO] PASS: element 'createButton' is clicked.
+[2023-07-29 03:46:13] [1] [INFO] PASS: element 'accountPage' is clicked.
+[2023-07-29 03:46:13] [1] [INFO] TEST [automation-course-demo - testCreateAccount] PASSED at [20:46:13 2023-07-28]

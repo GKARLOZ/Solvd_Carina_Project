@@ -1,0 +1,4 @@
+[2023-07-29 03:32:56] [1] [INFO] TEST [automation-course-demo - TestListOfProducts [L03]] STARTED at [20:32:56 2023-07-28]
+[2023-07-29 03:32:56] [1] [INFO] Starting driver session...
+[2023-07-29 03:32:57] [1] [INFO] Driver session started.
+[2023-07-29 03:32:57] [1] [INFO] INFO: opening url 'https://petstore.com/'

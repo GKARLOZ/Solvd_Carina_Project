@@ -1,0 +1,10 @@
+[2023-07-29 03:44:47] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-29 03:44:47] [1] [INFO] TEST [automation-course-demo - TestSearchResults [L01]] STARTED at [20:44:47 2023-07-28]
+[2023-07-29 03:44:47] [1] [INFO] Starting driver session...
+[2023-07-29 03:44:50] [1] [INFO] Driver session started.
+[2023-07-29 03:44:50] [1] [INFO] INFO: opening url 'https://petstore.com/'
+[2023-07-29 03:45:01] [1] [INFO] PASS: element 'popUp' is clicked.
+[2023-07-29 03:45:01] [1] [INFO] PASS: element 'searchButton' is clicked.
+[2023-07-29 03:45:02] [1] [INFO] PASS: keys 'JOLLY PETS' are sent to element 'searchTextField'.
+[2023-07-29 03:45:08] [1] [INFO] PASS: element 'listOfSearchResults1' is clicked.
+[2023-07-29 03:45:08] [1] [INFO] TEST [automation-course-demo - TestSearchResults [L01]] PASSED at [20:45:08 2023-07-28]

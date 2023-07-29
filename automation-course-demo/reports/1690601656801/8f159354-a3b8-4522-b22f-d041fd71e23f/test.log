@@ -1,0 +1,28 @@
+[2023-07-29 03:35:28] [1] [INFO] TEST [automation-course-demo - TestCartItems [L03]] STARTED at [20:35:28 2023-07-28]
+[2023-07-29 03:35:28] [1] [INFO] Starting driver session...
+[2023-07-29 03:35:29] [1] [INFO] Driver session started.
+[2023-07-29 03:35:29] [1] [INFO] INFO: opening url 'https://petstore.com/'
+[2023-07-29 03:35:40] [1] [INFO] PASS: element 'popUp' is clicked.
+[2023-07-29 03:35:41] [1] [INFO] PASS: element 'menuButton' is clicked.
+[2023-07-29 03:35:41] [1] [INFO] selecting Bird category >>>
+[2023-07-29 03:35:42] [1] [INFO] PASS: element 'By.xpath: //*[@id="NavDrawer"]/div/div[2]/ul[1]/li[5]/div[1]/div/button' is clicked.
+[2023-07-29 03:35:43] [1] [INFO] selecting Treats category >>>
+[2023-07-29 03:35:44] [1] [INFO] PASS: element 'innerCategoryLinks64' is clicked.
+[2023-07-29 03:35:45] [1] [INFO] selecting LAFEBER'S® TROPICAL FRUIT NUTRI-BERRIES FOR PARAKEET, COCKATIELS & LOVEBIRDS 10 OZ
+PETSTORE
+$20.75 product >>>
+[2023-07-29 03:35:46] [1] [INFO] PASS: element 'By.xpath: //*[@id="CollectionSection"]/div[2]/div[1]/div/a' is clicked.
+[2023-07-29 03:35:47] [1] [INFO] PASS: element 'addToCartButton' is clicked.
+[2023-07-29 03:35:53] [1] [INFO] PASS: element 'exitCart' is clicked.
+[2023-07-29 03:35:53] [1] [INFO] PASS: element 'menuButton' is clicked.
+[2023-07-29 03:35:54] [1] [INFO] selecting Reptile & Amphibian category >>>
+[2023-07-29 03:35:54] [1] [INFO] PASS: element 'By.xpath: //*[@id="NavDrawer"]/div/div[2]/ul[1]/li[4]/div[1]/div/button' is clicked.
+[2023-07-29 03:35:54] [1] [INFO] selecting Lighting category >>>
+[2023-07-29 03:35:56] [1] [INFO] PASS: element 'innerCategoryLinks52' is clicked.
+[2023-07-29 03:35:56] [1] [INFO] selecting ZILLA® MINI HALOGEN BULB 25 WATT NIGHT RED COLOR 2.5 X 0.75 X 4 INCH
+PETSTORE
+$23.14 product >>>
+[2023-07-29 03:35:57] [1] [INFO] PASS: element 'By.xpath: //*[@id="CollectionSection"]/div[2]/div[1]/div/a' is clicked.
+[2023-07-29 03:35:57] [1] [INFO] PASS: element 'addToCartButton' is clicked.
+[2023-07-29 03:36:03] [1] [INFO] PASS: element 'exitCart' is clicked.
+[2023-07-29 03:36:03] [1] [INFO] TEST [automation-course-demo - TestCartItems [L03]] PASSED at [20:36:03 2023-07-28]

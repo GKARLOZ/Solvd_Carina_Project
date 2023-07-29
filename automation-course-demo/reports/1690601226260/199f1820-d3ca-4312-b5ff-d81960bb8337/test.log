@@ -1,0 +1,49 @@
+[2023-07-29 03:27:09] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-29 03:27:09] [1] [INFO] TEST [automation-course-demo - TestListOfProducts [L01]] STARTED at [20:27:09 2023-07-28]
+[2023-07-29 03:27:09] [1] [INFO] Starting driver session...
+[2023-07-29 03:27:11] [1] [INFO] Driver session started.
+[2023-07-29 03:27:11] [1] [INFO] INFO: opening url 'https://petstore.com/'
+[2023-07-29 03:27:23] [1] [INFO] PASS: element 'popUp' is clicked.
+[2023-07-29 03:27:23] [1] [INFO] PASS: element 'menuButton' is clicked.
+[2023-07-29 03:27:24] [1] [INFO] selecting Bird category >>>
+[2023-07-29 03:27:25] [1] [INFO] PASS: element 'By.xpath: //*[@id="NavDrawer"]/div/div[2]/ul[1]/li[5]/div[1]/div/button' is clicked.
+[2023-07-29 03:27:25] [1] [INFO] selecting Treats category >>>
+[2023-07-29 03:27:27] [1] [INFO] PASS: element 'innerCategoryLinks64' is clicked.
+[2023-07-29 03:27:28] [1] [INFO] PASS: element 'menuButton' is clicked.
+[2023-07-29 03:27:28] [1] [INFO] selecting Dog category >>>
+[2023-07-29 03:27:28] [1] [INFO] PASS: element 'By.xpath: //*[@id="NavDrawer"]/div/div[2]/ul[1]/li[1]/div[1]/div/button' is clicked.
+[2023-07-29 03:27:29] [1] [INFO] selecting Toys category >>>
+[2023-07-29 03:27:29] [1] [ERROR] Unable to open category: Toys
+[2023-07-29 03:27:30] [1] [ERROR] TEST [automation-course-demo - TestListOfProducts [L01]] FAILED at [20:27:30 2023-07-28] - The following asserts failed:
+	First product in Toys category does not match. expected [true] but found [false]
+
+org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+com.solvd.qa.carina.solvd_test.WebTest.TestListOfProducts(WebTest.java:46)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:568)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)

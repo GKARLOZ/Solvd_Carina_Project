@@ -29,7 +29,6 @@ public class LogInPage extends LogInPageBase {
 
     public void putPasswordTextField(String password){
         passwordTextField.type(password);
-        pause(3);
     }
 
     public AccountPage clickSignIn(){

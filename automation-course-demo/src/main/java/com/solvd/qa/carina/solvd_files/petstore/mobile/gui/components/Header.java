@@ -80,7 +80,6 @@ public class Header extends HeaderBase {
             if(category.equalsIgnoreCase(currentCategory)){
                 waitUntil(ExpectedConditions.elementToBeClickable(cl.getElement()), 20000);
                 cl.click();
-//                cl.pause(10);
                 return new MultipleProductsPage(driver);
 
             }
@@ -97,7 +96,6 @@ public class Header extends HeaderBase {
             if (category.equalsIgnoreCase(currentCategory)) {
                 waitUntil(ExpectedConditions.elementToBeClickable(cl.getElement()),20000);
                 cl.click();
-//                cl.pause(10);
                 return new MultipleProductsPage(driver);
 
             }
@@ -119,7 +117,6 @@ public class Header extends HeaderBase {
                     expand = findExtendedWebElement(By.xpath(element));
                     waitUntil(ExpectedConditions.elementToBeClickable(expand.getElement()), 20000);
                     expand.click();
-//                    expand.pause(5);
                     break;
 
                 }

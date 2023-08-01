@@ -62,7 +62,6 @@ public class ShopByCategoryPage extends ShopByCategoryPageBase {
             if(category.equalsIgnoreCase(currentCategory)){
                 waitUntil(ExpectedConditions.elementToBeClickable(cl.getElement()), 20000);
                 cl.click();
-//                cl.pause(10);
                 break;
             }
         }
@@ -77,7 +76,6 @@ public class ShopByCategoryPage extends ShopByCategoryPageBase {
             if(category.equalsIgnoreCase(currentCategory)){
                 waitUntil(ExpectedConditions.elementToBeClickable(cl.getElement()),20000);
                 cl.click();
-//                cl.pause(10);
                 break;
 
             }
@@ -90,7 +88,6 @@ public class ShopByCategoryPage extends ShopByCategoryPageBase {
             if(brand.equalsIgnoreCase(currentBrand)){
                 waitUntil(ExpectedConditions.elementToBeClickable(b.getElement()),20000);
                 b.click();
-//                b.pause(15);
                 break;
 
             }

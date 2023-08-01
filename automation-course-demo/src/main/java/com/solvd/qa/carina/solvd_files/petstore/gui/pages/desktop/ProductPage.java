@@ -21,7 +21,6 @@ public class ProductPage extends ProductPageBase {
 
     public void clickAddToCart(){
         addToCartButton.click();
-        pause(5);
 
     }
     public ExtendedWebElement getProductTitle(){

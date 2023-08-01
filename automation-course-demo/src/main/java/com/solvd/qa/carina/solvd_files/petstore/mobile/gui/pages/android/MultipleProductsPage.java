@@ -51,7 +51,6 @@ public class MultipleProductsPage extends MultipleProductsPageBase {
                 expand = findExtendedWebElement(By.xpath(element));
                 waitUntil(ExpectedConditions.elementToBeClickable(expand.getElement()), 20000);
                 expand.click();
-//                    expand.pause(5);
                 return new ProductPage(driver);
             }
 

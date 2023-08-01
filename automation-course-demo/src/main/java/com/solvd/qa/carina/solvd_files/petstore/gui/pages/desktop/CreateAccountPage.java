@@ -41,7 +41,6 @@ public class CreateAccountPage extends CreateAccountPageBase {
     @Override
     public PetHomePage clickCreateButton(){
         createButton.click(50000);
-        pause(5);
         return new PetHomePage(driver);
 
     }

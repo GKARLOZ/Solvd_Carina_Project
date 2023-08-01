@@ -47,11 +47,4 @@ public class CreateAccountPage extends CreateAccountPageBase {
 
     }
 
-//    @Override
-//    public AccountPage clickCreateButton(){
-//        createButton.click();
-//        return new AccountPage(driver);
-//    }
-
-
 }

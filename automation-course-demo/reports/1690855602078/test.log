@@ -1,0 +1,26 @@
+[2023-08-01 02:06:42] [1] [INFO] 
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://petstore.com/
+selenium_url=http://localhost:4723
+auto_screenshot=true
+init_retry_count=2
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+deviceType=phone
+automationName=uiautomator2
+browserName=chrome
+platformName=ANDROID
+===============================================
+
+[2023-08-01 02:06:42] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-08-01 02:06:45] [1] [INFO] [TestNG] Running:
+  C:\Users\gianm\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[2023-08-01 02:06:45] [1] [INFO] Set thread-count=1
+[2023-08-01 02:06:45] [1] [INFO] Set data-provider-thread-count=1
+[2023-08-01 02:06:45] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2023-08-01 02:07:47] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-08-01 02:07:47] [1] [INFO] RESULT #1: TEST [automation-course-demo - testUserFlow [L01]] PASS [screenshots=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690855602078/5b2c5db9-5381-42df-a182-4a0f72d5f8ec/report.html | log=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690855602078/5b2c5db9-5381-42df-a182-4a0f72d5f8ec/test.log]

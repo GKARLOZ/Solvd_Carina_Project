@@ -1,0 +1,28 @@
+[2023-08-01 01:49:47] [1] [INFO] 
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://petstore.com/
+selenium_url=http://localhost:4723
+auto_screenshot=true
+init_retry_count=2
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+deviceType=phone
+automationName=uiautomator2
+browserName=chrome
+platformName=ANDROID
+===============================================
+
+[2023-08-01 01:49:47] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-08-01 01:49:50] [1] [INFO] [TestNG] Running:
+  C:\Users\gianm\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[2023-08-01 01:49:50] [1] [INFO] Set thread-count=1
+[2023-08-01 01:49:50] [1] [INFO] Set data-provider-thread-count=1
+[2023-08-01 01:49:50] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2023-08-01 01:53:38] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-08-01 01:53:38] [1] [INFO] RESULT #1: TEST [automation-course-demo - TestCartItems [L01]] FAIL [screenshots=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690854587858/26b8089e-cfb3-4eb8-b7b8-c71e67e9daa5/report.html | log=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690854587858/26b8089e-cfb3-4eb8-b7b8-c71e67e9daa5/test.log]
+[2023-08-01 01:53:38] [1] [INFO] RESULT #2: TEST [automation-course-demo - TestCartItems [L02]] FAIL [screenshots=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690854587858/5b733ac4-b831-48dd-920d-33fdfa08ce8b/report.html | log=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690854587858/5b733ac4-b831-48dd-920d-33fdfa08ce8b/test.log]
+[2023-08-01 01:53:38] [1] [INFO] RESULT #3: TEST [automation-course-demo - TestCartItems [L03]] FAIL [screenshots=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690854587858/0fda3d2f-781c-48b2-9f87-08afdac0c56e/report.html | log=file://C:\Users\gianm\Desktop\Solvd_Carina3\automation-course-demo\.\reports\1690854587858/0fda3d2f-781c-48b2-9f87-08afdac0c56e/test.log]

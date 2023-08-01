@@ -1,0 +1,26 @@
+[2023-08-01 01:56:26] [1] [INFO] TEST [automation-course-demo - TestCartItems [L03]] STARTED at [18:56:26 2023-07-31]
+[2023-08-01 01:56:26] [1] [INFO] Starting driver session...
+[2023-08-01 01:56:38] [1] [INFO] Driver session started.
+[2023-08-01 01:56:38] [1] [INFO] INFO: opening url 'https://petstore.com/'
+[2023-08-01 01:56:53] [1] [INFO] PASS: element 'popUp' is clicked.
+[2023-08-01 01:56:55] [1] [INFO] PASS: element 'menuButton' is clicked.
+[2023-08-01 01:56:56] [1] [INFO] selecting Bird category >>>
+[2023-08-01 01:57:00] [1] [INFO] PASS: element 'By.xpath: //*[@id="NavDrawer"]/div/div[2]/ul[1]/li[5]/div[1]/div/button' is clicked.
+[2023-08-01 01:57:01] [1] [INFO] selecting Treats category >>>
+[2023-08-01 01:57:10] [1] [INFO] PASS: element 'innerCategoryLinks64' is clicked.
+[2023-08-01 01:57:11] [1] [INFO] selecting LAFEBER'S® TROPICAL FRUIT NUTRI-BERRIES FOR PARAKEET, COCKATIELS & LOVEBIRDS 10 OZ
+PETSTORE
+$20.75 product >>>
+[2023-08-01 01:57:14] [1] [INFO] PASS: element 'By.xpath: //*[@id="CollectionSection"]/div[2]/div[1]/div/a' is clicked.
+[2023-08-01 01:57:15] [1] [INFO] PASS: element 'addToCartButton' is clicked.
+[2023-08-01 01:57:22] [1] [INFO] PASS: element 'exitCart' is clicked.
+[2023-08-01 01:57:24] [1] [INFO] PASS: element 'menuButton' is clicked.
+[2023-08-01 01:57:24] [1] [INFO] selecting Reptile & Amphibian category >>>
+[2023-08-01 01:57:27] [1] [INFO] PASS: element 'By.xpath: //*[@id="NavDrawer"]/div/div[2]/ul[1]/li[4]/div[1]/div/button' is clicked.
+[2023-08-01 01:57:28] [1] [INFO] selecting Lighting category >>>
+[2023-08-01 01:57:34] [1] [INFO] PASS: element 'innerCategoryLinks52' is clicked.
+[2023-08-01 01:57:36] [1] [INFO] selecting ZILLA® MINI HALOGEN BULB 25 WATT NIGHT RED COLOR 2.5 X 0.75 X 4 INCH
+PETSTORE
+$23.14 product >>>
+[2023-08-01 01:57:38] [1] [INFO] PASS: element 'By.xpath: //*[@id="CollectionSection"]/div[2]/div[1]/div/a' is clicked.
+[2023-08-01 01:57:40] [1] [INFO] TEST [automation-course-demo - TestCartItems [L03]] PASSED at [18:57:40 2023-07-31]

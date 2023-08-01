@@ -1,0 +1,9 @@
+[2023-08-01 02:03:20] [1] [INFO] TEST [automation-course-demo - TestSearchResults [L03]] STARTED at [19:03:20 2023-07-31]
+[2023-08-01 02:03:20] [1] [INFO] Starting driver session...
+[2023-08-01 02:03:31] [1] [INFO] Driver session started.
+[2023-08-01 02:03:31] [1] [INFO] INFO: opening url 'https://petstore.com/'
+[2023-08-01 02:03:48] [1] [INFO] PASS: element 'popUp' is clicked.
+[2023-08-01 02:03:50] [1] [INFO] PASS: element 'searchButton' is clicked.
+[2023-08-01 02:03:53] [1] [INFO] PASS: keys 'Cat Toys' are sent to element 'searchTextField'.
+[2023-08-01 02:04:01] [1] [INFO] PASS: element 'listOfSearchResults1' is clicked.
+[2023-08-01 02:04:03] [1] [INFO] TEST [automation-course-demo - TestSearchResults [L03]] PASSED at [19:04:03 2023-07-31]

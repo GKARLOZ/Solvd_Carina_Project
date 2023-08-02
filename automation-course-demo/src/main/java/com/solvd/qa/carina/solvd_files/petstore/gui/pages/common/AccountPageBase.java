@@ -12,7 +12,6 @@ public abstract class AccountPageBase extends AbstractPage {
         super(driver);
     }
 
-    public abstract ExtendedWebElement getTitleOfPage();
     public abstract Header getHeader();
 
 }

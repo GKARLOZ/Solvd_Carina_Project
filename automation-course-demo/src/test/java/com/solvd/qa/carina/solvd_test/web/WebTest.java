@@ -68,6 +68,7 @@ public class WebTest implements IPick, IOpenAccount,IAbstractTest {
 
         logInPage.putEmailTextField(email);
         logInPage.putPasswordTextField(password);
+//        pause(10);
         AccountPage accountPage = logInPage.clickSignIn();
 
         SoftAssert softAssert = new SoftAssert();
@@ -96,6 +97,7 @@ public class WebTest implements IPick, IOpenAccount,IAbstractTest {
         createPage.putEmailTextField(random+"@gmail.com");
         createPage.putPasswordTextField(random);
 
+//        pause(7);
         PetHomePage homePage = createPage.clickCreateButton();
         AccountPage accountPage = homePage.getHeader().openAccountPage();
         String fullName = firstName +" "+lastName;

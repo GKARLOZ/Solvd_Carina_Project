@@ -1,10 +1,13 @@
 package com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop;
 
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.CreateAccountPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.PetHomePageBase;
+import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
-
+import org.openqa.selenium.support.ui.ExpectedConditions;
+@DeviceType(pageType = DeviceType.Type.DESKTOP, parentClass = CreateAccountPageBase.class)
 public class CreateAccountPage extends CreateAccountPageBase {
 
     @FindBy(xpath = "//*[@id=\"FirstName\"]")
@@ -15,7 +18,7 @@ public class CreateAccountPage extends CreateAccountPageBase {
     private ExtendedWebElement emailTextField;
     @FindBy(xpath = "//*[@id=\"CreatePassword\"]")
     private ExtendedWebElement passwordTextField;
-    @FindBy(xpath = "//*[@id=\"create_customer\"]/p/input")
+    @FindBy(xpath = "//*[@value=\"Create\"]")
     private ExtendedWebElement createButton;
 
     public CreateAccountPage(WebDriver driver) {
@@ -40,7 +43,7 @@ public class CreateAccountPage extends CreateAccountPageBase {
     }
     @Override
     public PetHomePage clickCreateButton(){
-        createButton.click(50000);
+        createButton.click();
         return new PetHomePage(driver);
 
     }

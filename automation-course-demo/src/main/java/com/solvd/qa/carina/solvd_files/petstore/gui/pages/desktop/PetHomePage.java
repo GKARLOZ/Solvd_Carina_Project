@@ -7,10 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 @DeviceType(pageType = DeviceType.Type.DESKTOP, parentClass = PetHomePageBase.class)
 public class PetHomePage extends PetHomePageBase {
-
-    @FindBy(xpath = "//*[@id=\"shopify-section-header\"]/div[3]")
+    @FindBy(xpath = "//header[contains(@class,'site-header')]")
     private Header header;
-
     public PetHomePage(WebDriver driver) {
         super(driver);
     }

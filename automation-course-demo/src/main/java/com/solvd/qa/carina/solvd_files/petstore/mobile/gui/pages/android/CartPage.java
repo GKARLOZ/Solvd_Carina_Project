@@ -1,15 +1,18 @@
 package com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android;
 
 import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.CartPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.PetHomePageBase;
+import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
+@DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = CartPageBase.class)
 public class CartPage extends CartPageBase {
 
-    @FindBy(xpath = "//*[@id=\"CartContainer\"]/div[1]/div")
+    @FindBy(xpath = "")
     private List<ExtendedWebElement> listOfItems;
     public CartPage(WebDriver driver) {
         super(driver);

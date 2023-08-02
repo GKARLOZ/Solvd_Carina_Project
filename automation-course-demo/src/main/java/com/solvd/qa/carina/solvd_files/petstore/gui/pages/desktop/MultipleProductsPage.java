@@ -2,6 +2,8 @@ package com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop;
 
 import com.solvd.qa.carina.solvd_files.petstore.gui.components.Header;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.MultipleProductsPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.PetHomePageBase;
+import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -13,12 +15,12 @@ import org.slf4j.LoggerFactory;
 import java.lang.invoke.MethodHandles;
 import java.util.List;
 
-
+@DeviceType(pageType = DeviceType.Type.DESKTOP, parentClass = MultipleProductsPageBase.class)
 public class MultipleProductsPage extends MultipleProductsPageBase {
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
-    @FindBy(xpath = "//*[@id=\"CollectionSection\"]/div[2]/div/div/a/div[2]")
+    @FindBy(xpath = "//div[contains(@class,'grid-product__meta')]")
     private List<ExtendedWebElement> productList;
-    @FindBy(xpath = "//*[@id=\"shopify-section-header\"]/div[3]")
+    @FindBy(xpath = "//div[contains(@id,'header')]")
     private Header header;
 
     public MultipleProductsPage(WebDriver driver){
@@ -46,7 +48,7 @@ public class MultipleProductsPage extends MultipleProductsPageBase {
             String currentProduct = productList.get(i-1).getText();
 
             if(product.equalsIgnoreCase(currentProduct)){
-                element = String.format("//*[@id=\"CollectionSection\"]/div[2]/div[%o]/div/a",i);
+                element=String.format("//div[contains(@class,'grid__item grid-product')][%o]//a",i);
                 expand = findExtendedWebElement(By.xpath(element));
                 waitUntil(ExpectedConditions.elementToBeClickable(expand.getElement()), 20000);
                 expand.click();

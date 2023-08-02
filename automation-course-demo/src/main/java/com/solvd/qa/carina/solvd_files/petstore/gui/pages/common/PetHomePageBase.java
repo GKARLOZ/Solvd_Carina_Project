@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 
 public abstract class PetHomePageBase extends AbstractPage {
 
-    @FindBy(xpath = "//*[@id=\"NewsletterPopup-newsletter-popup\"]/div/div/button")
+    @FindBy(xpath = "//button[contains(@class,'modal__close js-modal-close')]")
     private ExtendedWebElement popUp;
     public PetHomePageBase(WebDriver driver) {
         super(driver);

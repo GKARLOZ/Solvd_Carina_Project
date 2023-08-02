@@ -1,11 +1,13 @@
 package com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android;
 
 import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.CreateAccountPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.PetHomePageBase;
+import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
-
+@DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = CreateAccountPageBase.class)
 public class CreateAccountPage extends CreateAccountPageBase {
 
     @FindBy(xpath = "//*[@id=\"FirstName\"]")
@@ -16,7 +18,7 @@ public class CreateAccountPage extends CreateAccountPageBase {
     private ExtendedWebElement emailTextField;
     @FindBy(xpath = "//*[@id=\"CreatePassword\"]")
     private ExtendedWebElement passwordTextField;
-    @FindBy(css = "#create_customer > p > input")
+    @FindBy(xpath = "//*[@value=\"Create\"]")
     private ExtendedWebElement createButton;
 
     public CreateAccountPage(WebDriver driver) {
@@ -38,7 +40,6 @@ public class CreateAccountPage extends CreateAccountPageBase {
     @Override
     public void putPasswordTextField(String password) {
         passwordTextField.type(password);
-        passwordTextField.sendKeys(Keys.RETURN);// Press return on the mobile keyboard
     }
     @Override
     public PetHomePage clickCreateButton(){
@@ -46,5 +47,6 @@ public class CreateAccountPage extends CreateAccountPageBase {
         return new PetHomePage(driver);
 
     }
+
 
 }

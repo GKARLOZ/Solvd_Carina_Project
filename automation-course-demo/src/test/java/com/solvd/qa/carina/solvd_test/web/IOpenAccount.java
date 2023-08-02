@@ -13,6 +13,7 @@ public interface IOpenAccount extends IAbstractTest {
         PetHomePageBase homePage = initPage(getDriver(),PetHomePageBase.class);
         homePage.open();
         Assert.assertTrue(homePage.isPageOpened(), "Home page is not opened");
+        homePage.getHeader().openMenu();
         return homePage.getHeader().openLogin();
 
     }
@@ -23,6 +24,7 @@ public interface IOpenAccount extends IAbstractTest {
         homePage.open();
         Assert.assertTrue(homePage.isPageOpened(), "Home page is not opened");
 
+        homePage.getHeader().openMenu();
         LogInPage logInPage = homePage.getHeader().openLogin();
         return logInPage.clickCreateAccount();
 

@@ -1,10 +1,13 @@
 package com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android;
 
 import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.LogInPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.PetHomePageBase;
+import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
+@DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = LogInPageBase.class)
 public class LogInPage extends LogInPageBase {
 
     @FindBy(xpath = "//*[@id=\"CustomerEmail\"]")
@@ -15,7 +18,7 @@ public class LogInPage extends LogInPageBase {
     private ExtendedWebElement signInButton;
     @FindBy(xpath = "//*[@id=\"customer_register_link\"]")
     private ExtendedWebElement createAccount;
-    @FindBy(xpath = "//*[@id=\"MainContent\"]/div/div/div/header/h1")
+    @FindBy(xpath = "//*[@id=\"MainContent\"]//h1[contains(@class,'section-header__title')]")
     private ExtendedWebElement titleOfPage;
 
     public LogInPage(WebDriver driver) {
@@ -24,12 +27,10 @@ public class LogInPage extends LogInPageBase {
 
     public void putEmailTextField(String email){
         emailTextField.type(email);
-        pause(3);
     }
 
     public void putPasswordTextField(String password){
         passwordTextField.type(password);
-        pause(3);
     }
 
     public AccountPage clickSignIn(){
@@ -45,5 +46,4 @@ public class LogInPage extends LogInPageBase {
     public ExtendedWebElement getTitleOfPage(){
         return titleOfPage;
     }
-
 }

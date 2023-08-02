@@ -1,6 +1,7 @@
 package com.solvd.qa.carina.solvd_files.petstore.mobile.gui.components;
 
 
+
 import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android.AccountPage;
 import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android.LogInPage;
 import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android.MultipleProductsPage;
@@ -20,31 +21,30 @@ import java.util.List;
 
 @DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = HeaderBase.class)
 public class Header extends HeaderBase {
-
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
-
-    @FindBy(xpath = "//*[@id=\"shopify-section-header\"]/div[3]/div[2]/div/div/header/div[1]/div/div[1]/div/button")
+    @FindBy(xpath = "//button[contains(@aria-controls,'NavDrawer')]")
     private ExtendedWebElement menuButton;
-    @FindBy(xpath = "//*[@id=\"NavDrawer\"]/div/div[2]/ul[1]/li")
+    @FindBy(xpath = "//ul[contains(@role,'navigation')]/li[contains(@class,'mobile-nav__item')]")
     private List<ExtendedWebElement> categoryLinks;
-    @FindBy(xpath = "//li/div[2]/div/ul//li/div/a")
+    @FindBy(xpath = "//a[contains(@class,'mobile-nav__link')]")
     private List<ExtendedWebElement> innerCategoryLinks;
-//    @FindBy(xpath = "//*[@id=\"shopify-section-header\"]/div[3]/div[2]/div/div/header/div[1]/div/div[3]/div/div/a[1]")
-    @FindBy(xpath = "//*[@id=\"NavDrawer\"]/div/div[2]/ul[1]/li[7]/div/div/a")
+    @FindBy(xpath ="//a[contains(@href,'/account')]" )
     private ExtendedWebElement login;
-    @FindBy(xpath = "//*[@id=\"NavDrawer\"]/div/div[2]/ul[1]/li[7]/div/div/a")
+    @FindBy(xpath = "//div[contains(@class,'site-nav')]//a[contains(@href,'/account')]")
     private ExtendedWebElement accountPage;
-    @FindBy(xpath = "//*[@id=\"CartContainer\"]/div[1]/div")
+    @FindBy(xpath = "//*[@id=\"CartContainer\"]//div[contains(@class,'ajaxcart__product appear-animation')]")
     private List<ExtendedWebElement> itemsInCart;
-    @FindBy(xpath = "//*[@id=\"CartDrawer\"]/form/div[1]/div/div[2]/button")
+    @FindBy(xpath = "//div[contains(@id,'CartDrawer')]//button[contains(@class,'drawer__close-button')]")
     private ExtendedWebElement exitCart;
-    @FindBy(xpath = "//*[@id=\"shopify-section-header\"]/div[3]/div[2]/div/div/header/div[1]/div/div[3]/div/div/a[2]")
+    @FindBy(xpath = "//a[contains(@href,'/search')]")
     private ExtendedWebElement searchButton;
     @FindBy(xpath = "//input[contains(@type, 'search')]")
     private ExtendedWebElement searchTextField;
-
-    @FindBy(xpath = "//*[@id=\"PredictiveResults\"]/div/div/div/div/div/a")
+    @FindBy(xpath = "//*[@id=\"PredictiveResults\"]//a[contains(@class,'grid-product__link')]")
     private List<ExtendedWebElement> listOfSearchResults;
+    @FindBy(xpath = "//*[@id=\"PredictiveResults\"]//div[contains(@class,'grid__item grid-product')]")
+    private ExtendedWebElement firstSearchResult;
+
 
     public Header(WebDriver driver) {
         super(driver);
@@ -53,16 +53,21 @@ public class Header extends HeaderBase {
         super(driver, searchContext);
     }
 
-
     public List<ExtendedWebElement> getItemsInCart(){
         return itemsInCart;
     }
     public void closeCart(){
+        waitUntil(ExpectedConditions.elementToBeClickable(exitCart.getElement()), 20000);
         exitCart.click();
     }
     public ProductPage selectFromSearchResults(int item){
+        waitUntil(ExpectedConditions.elementToBeClickable(firstSearchResult.getElement()),10000);
         listOfSearchResults.get(item).click();
         return new ProductPage(driver);
+    }
+    public LogInPage openLogin(){
+        login.click();
+        return new LogInPage(driver);
     }
 
     public AccountPage openAccountPage(){
@@ -104,39 +109,31 @@ public class Header extends HeaderBase {
         return null;
 
     }
-        public void expandCategory(String category) {
-            ExtendedWebElement expand;
-            String element;
+    public void expandCategory(String category) {
+        ExtendedWebElement expand;
+        String element;
 
-            LOGGER.info("selecting " + category + " category >>>");
-            for(int i = 1; i < categoryLinks.size(); i++){
-                String currentCategory = categoryLinks.get(i-1).getText();
+        LOGGER.info("selecting " + category + " category >>>");
+        for(int i = 1; i < categoryLinks.size(); i++){
+            String currentCategory = categoryLinks.get(i-1).getText();
 
-                if(category.equalsIgnoreCase(currentCategory)){
-                    element = String.format("//*[@id=\"NavDrawer\"]/div/div[2]/ul[1]/li[%o]/div[1]/div/button",i);
-                    expand = findExtendedWebElement(By.xpath(element));
-                    waitUntil(ExpectedConditions.elementToBeClickable(expand.getElement()), 20000);
-                    expand.click();
-                    break;
-
-                }
+            if(category.equalsIgnoreCase(currentCategory)){
+                element = String.format("//li[contains(@class,'mobile-nav__item')][%o]//div[contains(@class,'mobile-nav__toggle')]//button[contains(@class,'collapsible-trigger')]",i);
+                expand = findExtendedWebElement(By.xpath(element));
+                waitUntil(ExpectedConditions.elementToBeClickable(expand.getElement()), 20000);
+                expand.click();
+                break;
 
             }
+
+        }
 
     }
 
     public void searchItem(String q){
         searchButton.click();
         searchTextField.type(q);
-        pause(5);
 
     }
-
-    public LogInPage openLogin(){
-        login.click();
-        return new LogInPage(driver);
-    }
-
-
 
 }

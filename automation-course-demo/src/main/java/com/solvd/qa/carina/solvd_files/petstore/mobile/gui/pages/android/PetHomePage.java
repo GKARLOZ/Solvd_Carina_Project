@@ -10,9 +10,8 @@ import org.openqa.selenium.support.FindBy;
 @DeviceType(pageType = Type.ANDROID_PHONE, parentClass = PetHomePageBase.class)
 public class PetHomePage extends PetHomePageBase {
 
-    @FindBy(xpath = "//*[@id=\"shopify-section-header\"]/div[3]")
+    @FindBy(xpath = "//header[contains(@class,'site-header')]")
     private Header header;
-
     public PetHomePage(WebDriver driver) {
         super(driver);
     }

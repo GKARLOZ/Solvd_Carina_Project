@@ -19,30 +19,29 @@ import java.util.List;
 
 @DeviceType(pageType = DeviceType.Type.DESKTOP, parentClass = HeaderBase.class)
 public class Header extends HeaderBase {
-
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
-
-    @FindBy(xpath = "//*[@id=\"shopify-section-header\"]/div[3]/div[2]/div/div/header/div[1]/div/div[1]/div/button")
+    @FindBy(xpath = "//button[contains(@aria-controls,'NavDrawer')]")
     private ExtendedWebElement menuButton;
-    @FindBy(xpath = "//*[@id=\"NavDrawer\"]/div/div[2]/ul[1]/li")
+    @FindBy(xpath = "//ul[contains(@role,'navigation')]/li[contains(@class,'mobile-nav__item')]")
     private List<ExtendedWebElement> categoryLinks;
-    @FindBy(xpath = "//li/div[2]/div/ul//li/div/a")
+    @FindBy(xpath = "//a[contains(@class,'mobile-nav__link')]")
     private List<ExtendedWebElement> innerCategoryLinks;
-    @FindBy(xpath = "//*[@id=\"shopify-section-header\"]/div[3]/div[2]/div/div/header/div[1]/div/div[3]/div/div/a[1]")
+    @FindBy(xpath ="//a[contains(@href,'/account')]" )
     private ExtendedWebElement login;
-    @FindBy(xpath = "//*[@id=\"shopify-section-header\"]/div[3]/div[2]/div/div/header/div[1]/div/div[3]/div/div/a[1]")
+    @FindBy(xpath = "//div[contains(@class,'site-nav')]//a[contains(@href,'/account')]")
     private ExtendedWebElement accountPage;
-    @FindBy(xpath = "//*[@id=\"CartContainer\"]/div[1]/div")
+    @FindBy(xpath = "//*[@id=\"CartContainer\"]//div[contains(@class,'ajaxcart__product appear-animation')]")
     private List<ExtendedWebElement> itemsInCart;
-    @FindBy(xpath = "//*[@id=\"CartDrawer\"]/form/div[1]/div/div[2]/button")
+    @FindBy(xpath = "//div[contains(@id,'CartDrawer')]//button[contains(@class,'drawer__close-button')]")
     private ExtendedWebElement exitCart;
-    @FindBy(xpath = "//*[@id=\"shopify-section-header\"]/div[3]/div[2]/div/div/header/div[1]/div/div[3]/div/div/a[2]")
+    @FindBy(xpath = "//a[contains(@href,'/search')]")
     private ExtendedWebElement searchButton;
     @FindBy(xpath = "//input[contains(@type, 'search')]")
     private ExtendedWebElement searchTextField;
-
-    @FindBy(xpath = "//*[@id=\"PredictiveResults\"]/div/div/div/div/div/a")
+    @FindBy(xpath = "//*[@id=\"PredictiveResults\"]//a[contains(@class,'grid-product__link')]")
     private List<ExtendedWebElement> listOfSearchResults;
+    @FindBy(xpath = "//*[@id=\"PredictiveResults\"]//div[contains(@class,'grid__item grid-product')]")
+    private ExtendedWebElement firstSearchResult;
 
     public Header(WebDriver driver) {
         super(driver);
@@ -56,9 +55,11 @@ public class Header extends HeaderBase {
         return itemsInCart;
     }
     public void closeCart(){
+        waitUntil(ExpectedConditions.elementToBeClickable(exitCart.getElement()), 20000);
         exitCart.click();
     }
     public ProductPage selectFromSearchResults(int item){
+        waitUntil(ExpectedConditions.elementToBeClickable(firstSearchResult.getElement()),10000);
         listOfSearchResults.get(item).click();
         return new ProductPage(driver);
     }
@@ -82,7 +83,6 @@ public class Header extends HeaderBase {
             if(category.equalsIgnoreCase(currentCategory)){
                 waitUntil(ExpectedConditions.elementToBeClickable(cl.getElement()), 20000);
                 cl.click();
-//                cl.pause(10);
                 return new MultipleProductsPage(driver);
 
             }
@@ -99,7 +99,6 @@ public class Header extends HeaderBase {
             if (category.equalsIgnoreCase(currentCategory)) {
                 waitUntil(ExpectedConditions.elementToBeClickable(cl.getElement()),20000);
                 cl.click();
-//                cl.pause(10);
                 return new MultipleProductsPage(driver);
 
             }
@@ -117,11 +116,10 @@ public class Header extends HeaderBase {
                 String currentCategory = categoryLinks.get(i-1).getText();
 
                 if(category.equalsIgnoreCase(currentCategory)){
-                    element = String.format("//*[@id=\"NavDrawer\"]/div/div[2]/ul[1]/li[%o]/div[1]/div/button",i);
+                    element = String.format("//li[contains(@class,'mobile-nav__item')][%o]//div[contains(@class,'mobile-nav__toggle')]//button[contains(@class,'collapsible-trigger')]",i);
                     expand = findExtendedWebElement(By.xpath(element));
                     waitUntil(ExpectedConditions.elementToBeClickable(expand.getElement()), 20000);
                     expand.click();
-//                    expand.pause(5);
                     break;
 
                 }
@@ -133,7 +131,6 @@ public class Header extends HeaderBase {
     public void searchItem(String q){
         searchButton.click();
         searchTextField.type(q);
-        pause(5);
 
     }
 

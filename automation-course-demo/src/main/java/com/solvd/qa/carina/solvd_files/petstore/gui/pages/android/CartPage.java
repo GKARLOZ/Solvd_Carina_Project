@@ -1,7 +1,7 @@
-package com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android;
+package com.solvd.qa.carina.solvd_files.petstore.gui.pages.android;
 
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.CartPageBase;
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.PetHomePageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.CartPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.PetHomePageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.WebDriver;

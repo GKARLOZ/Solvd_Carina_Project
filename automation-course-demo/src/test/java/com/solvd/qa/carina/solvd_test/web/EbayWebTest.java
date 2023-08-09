@@ -8,7 +8,7 @@ import com.zebrunner.carina.core.IAbstractTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SimpleWebTest implements IAbstractTest {
+public class EbayWebTest implements IAbstractTest {
 
     @Test
     public void testEbayAllCarTrucks(){

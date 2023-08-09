@@ -1,5 +1,7 @@
 package com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop;
 
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.AccountPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.CreateAccountPageBase;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.LogInPageBase;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.PetHomePageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
@@ -32,12 +34,12 @@ public class LogInPage extends LogInPageBase {
         passwordTextField.type(password);
     }
 
-    public AccountPage clickSignIn(){
+    public AccountPageBase clickSignIn(){
         signInButton.click();
         return new AccountPage(driver);
     }
 
-    public CreateAccountPage clickCreateAccount(){
+    public CreateAccountPageBase clickCreateAccount(){
         createAccount.click();
         return new CreateAccountPage(driver);
     }

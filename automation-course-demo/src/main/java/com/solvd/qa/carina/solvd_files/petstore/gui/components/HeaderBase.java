@@ -1,8 +1,9 @@
 package com.solvd.qa.carina.solvd_files.petstore.gui.components;
 
-import com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop.AccountPage;
-import com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop.ProductPage;
-import com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop.LogInPage;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.AccountPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.LogInPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.MultipleProductsPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.ProductPageBase;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractUIObject;
 import org.openqa.selenium.SearchContext;
@@ -23,10 +24,12 @@ public abstract class HeaderBase extends AbstractUIObject {
 
     public abstract void expandCategory(String category);
     public abstract void openMenu();
-    public abstract LogInPage openLogin();
-    public abstract AccountPage openAccountPage();
+    public abstract LogInPageBase openLogin();
+    public abstract AccountPageBase openAccountPage();
     public abstract List<ExtendedWebElement> getItemsInCart();
     public abstract void closeCart();
     public abstract void searchItem(String q);
-    public abstract ProductPage selectFromSearchResults(int item);
+    public abstract ProductPageBase selectFromSearchResults(int item);
+    public abstract MultipleProductsPageBase clickCategory(String category);
+    public abstract MultipleProductsPageBase clickInnerCategory(String category);
 }

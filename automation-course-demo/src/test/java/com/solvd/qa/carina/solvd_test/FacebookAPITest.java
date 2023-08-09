@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import java.lang.invoke.MethodHandles;
 
-public class APITest implements IAbstractTest {
+public class FacebookAPITest implements IAbstractTest {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
@@ -21,6 +21,7 @@ public class APITest implements IAbstractTest {
     public void testCreatePost(){
 
         PostMessageMethod api = new PostMessageMethod();
+        api.setProperties("facebookresources/message/post.properties");
         api.callAPIExpectSuccess();
         api.validateResponse();
 
@@ -30,7 +31,7 @@ public class APITest implements IAbstractTest {
 
         GetPostsMethod getPostsMethod = new GetPostsMethod();
         getPostsMethod.callAPIExpectSuccess();
-        getPostsMethod.validateResponse(JSONCompareMode.STRICT_ORDER, JsonCompareKeywords.ARRAY_CONTAINS.getKey());
+        getPostsMethod.validateResponse(JSONCompareMode.LENIENT, JsonCompareKeywords.REGEX.getKey());
        getPostsMethod.validateResponseAgainstSchema("facebookresources/message/_get/rs2.schema");
 
     }

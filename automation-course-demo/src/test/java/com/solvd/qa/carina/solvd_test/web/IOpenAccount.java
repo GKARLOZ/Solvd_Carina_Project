@@ -1,14 +1,14 @@
 package com.solvd.qa.carina.solvd_test.web;
 
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.CreateAccountPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.LogInPageBase;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.PetHomePageBase;
-import com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop.CreateAccountPage;
-import com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop.LogInPage;
 import com.zebrunner.carina.core.IAbstractTest;
 import org.testng.Assert;
 
 public interface IOpenAccount extends IAbstractTest {
 
-    default LogInPage openLogInPage(){
+    default LogInPageBase openLogInPage(){
 
         PetHomePageBase homePage = initPage(getDriver(),PetHomePageBase.class);
         homePage.open();
@@ -18,14 +18,14 @@ public interface IOpenAccount extends IAbstractTest {
 
     }
 
-    default CreateAccountPage openCreatePage(){
+    default CreateAccountPageBase openCreatePage(){
 
         PetHomePageBase homePage = initPage(getDriver(),PetHomePageBase.class);
         homePage.open();
         Assert.assertTrue(homePage.isPageOpened(), "Home page is not opened");
 
         homePage.getHeader().openMenu();
-        LogInPage logInPage = homePage.getHeader().openLogin();
+        LogInPageBase logInPage = homePage.getHeader().openLogin();
         return logInPage.clickCreateAccount();
 
     }

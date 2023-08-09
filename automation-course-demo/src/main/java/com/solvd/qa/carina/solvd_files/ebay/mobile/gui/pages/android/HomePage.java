@@ -2,15 +2,18 @@ package com.solvd.qa.carina.solvd_files.ebay.mobile.gui.pages.android;
 
 import com.solvd.qa.carina.solvd_files.ebay.mobile.gui.components.Header;
 import com.solvd.qa.carina.solvd_files.ebay.mobile.gui.pages.common.HomePageBase;
+import com.solvd.qa.carina.solvd_files.ebay.mobile.gui.pages.common.ShopByCategoryPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.decorator.annotations.AccessibilityId;
 import com.zebrunner.carina.webdriver.locator.ExtendedFindBy;
+import io.appium.java_client.android.nativekey.AndroidKey;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 
 import java.lang.invoke.MethodHandles;
 import java.util.List;
@@ -33,8 +36,12 @@ public class HomePage extends HomePageBase {
     @ExtendedFindBy(accessibilityId ="Search Keyword Search on eBay" )
     private ExtendedWebElement searchButton;
 
-    @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout[2]/android.widget.ListView/android.view.ViewGroup[2]/android.widget.TextView")
-    private ExtendedWebElement firstItem;
+    @ExtendedFindBy(accessibilityId = "eBay")
+    private ExtendedWebElement logo;
+
+
+    @ExtendedFindBy(accessibilityId = "Home")
+    private ExtendedWebElement homeButton;
 
 
 
@@ -46,18 +53,27 @@ public class HomePage extends HomePageBase {
         setPageAbsoluteURL(url);
     }
 
+    public ExtendedWebElement getLogo() {
+        return logo;
+    }
+
     public Header getHeader(){
         return header;
+    }
+
+    public ExtendedWebElement getHomeButton() {
+        return homeButton;
     }
 
     public ExtendedWebElement closePopUp(){
        return closePopUp;
     }
 
-    public ShopByCategoryPage search(String search){
+    public ShopByCategoryPageBase search(String search){
         searchButton.click();
         searchField.type(search);
-        firstItem.click();
+        tap(1006,1947,1);
+
         return new ShopByCategoryPage(driver);
     }
 

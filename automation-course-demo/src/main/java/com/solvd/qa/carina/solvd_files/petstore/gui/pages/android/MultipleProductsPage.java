@@ -1,9 +1,10 @@
-package com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android;
+package com.solvd.qa.carina.solvd_files.petstore.gui.pages.android;
 
 
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.components.Header;
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.MultipleProductsPageBase;
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.PetHomePageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.components.Header;
+import com.solvd.qa.carina.solvd_files.petstore.gui.components.HeaderBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.components.MobileHeader;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.MultipleProductsPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.By;
@@ -22,7 +23,7 @@ public class MultipleProductsPage extends MultipleProductsPageBase {
     @FindBy(xpath = "//div[contains(@class,'grid-product__meta')]")
     private List<ExtendedWebElement> productList;
     @FindBy(xpath = "//div[contains(@id,'header')]")
-    private Header header;
+    private MobileHeader header;
 
     public MultipleProductsPage(WebDriver driver){
         super(driver);
@@ -36,7 +37,7 @@ public class MultipleProductsPage extends MultipleProductsPageBase {
             LOGGER.info(product.getText());
         }
     }
-    public Header getHeader(){
+    public HeaderBase getHeader(){
         return header;
     }
 

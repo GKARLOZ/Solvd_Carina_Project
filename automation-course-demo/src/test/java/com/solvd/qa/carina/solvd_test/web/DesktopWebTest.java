@@ -1,6 +1,6 @@
 package com.solvd.qa.carina.solvd_test.web;
 
-import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.PetHomePageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.*;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop.*;
 import com.zebrunner.carina.core.IAbstractTest;
 import org.testng.Assert;
@@ -10,17 +10,17 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.UUID;
 
-public class WebTest implements IPick, IOpenAccount,IAbstractTest {
+public class DesktopWebTest implements IPick, IOpenAccount,IAbstractTest {
 
     @Test(dataProvider ="DP1")
     public void TestCartItems(String expandCate, String category, String item ){
-        ProductPage productPage = pickProduct();
+        ProductPageBase productPage = pickProduct();
         productPage.clickAddToCart();
         productPage.getHeader().closeCart();
 
         productPage.getHeader().openMenu();
         productPage.getHeader().expandCategory(expandCate);
-        MultipleProductsPage multiplePPage = productPage.getHeader().clickInnerCategory(category);
+        MultipleProductsPageBase multiplePPage = productPage.getHeader().clickInnerCategory(category);
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertTrue(multiplePPage.getProductList().get(0).getText().equals(item), "item does not match.");
         productPage = multiplePPage.selectProduct(item);
@@ -34,7 +34,7 @@ public class WebTest implements IPick, IOpenAccount,IAbstractTest {
 
     @Test(dataProvider = "DP1")
     public void TestListOfProducts(String expand, String category, String firstProduct){
-        MultipleProductsPage multiplePPage = pickCategory();
+        MultipleProductsPageBase multiplePPage = pickCategory();
 
         SoftAssert softAssert = new SoftAssert();
         multiplePPage.getHeader().openMenu();
@@ -54,7 +54,7 @@ public class WebTest implements IPick, IOpenAccount,IAbstractTest {
 
         SoftAssert softAssert = new SoftAssert();
         homePage.getHeader().searchItem(item);
-        ProductPage productPage = homePage.getHeader().selectFromSearchResults(1);
+        ProductPageBase productPage = homePage.getHeader().selectFromSearchResults(1);
         softAssert.assertTrue(productPage.getProductTitle().getText().contains(item.toUpperCase()), "Item does not contain the input");
 
         softAssert.assertAll();
@@ -64,20 +64,20 @@ public class WebTest implements IPick, IOpenAccount,IAbstractTest {
     @Test(dataProvider = "DP3")
     public void testUserFlow(String email, String password){
 
-        LogInPage logInPage = openLogInPage();
+        LogInPageBase logInPage = openLogInPage();
 
         logInPage.putEmailTextField(email);
         logInPage.putPasswordTextField(password);
 //        pause(10);
-        AccountPage accountPage = logInPage.clickSignIn();
+        AccountPageBase accountPage = logInPage.clickSignIn();
 
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertTrue(accountPage.getAccountOwner().getText().equalsIgnoreCase("JUANITO OTINAUJ"),"Account name does not match");
 
         accountPage.getHeader().openMenu();
-        MultipleProductsPage multiplePPage = accountPage.getHeader().clickCategory("Dog");
+        MultipleProductsPageBase multiplePPage = accountPage.getHeader().clickCategory("Dog");
         String product = "EXERCISE BALL FOR HAMSTERS AND SMALL PETS\nDISCOUNT PET SUPPLY\nRegular price\n$5.99\nSale price\n$3.49 Save $2.50";
-        ProductPage productPage = multiplePPage.selectProduct(product);
+        ProductPageBase productPage = multiplePPage.selectProduct(product);
         softAssert.assertTrue(productPage.getProductTitle().getText().contains("EXERCISE BALL"), "Item does not match selected");
 
         softAssert.assertAll();
@@ -87,7 +87,7 @@ public class WebTest implements IPick, IOpenAccount,IAbstractTest {
     @Test
     public void testCreateAccount(){
 
-        CreateAccountPage createPage = openCreatePage();
+        CreateAccountPageBase createPage = openCreatePage();
 
         String random = UUID.randomUUID().toString();
         String firstName = "Charles";
@@ -98,8 +98,8 @@ public class WebTest implements IPick, IOpenAccount,IAbstractTest {
         createPage.putPasswordTextField(random);
 
 //        pause(7);
-        PetHomePage homePage = createPage.clickCreateButton();
-        AccountPage accountPage = homePage.getHeader().openAccountPage();
+        PetHomePageBase homePage = createPage.clickCreateButton();
+        AccountPageBase accountPage = homePage.getHeader().openAccountPage();
         String fullName = firstName +" "+lastName;
         Assert.assertTrue(accountPage.getAccountOwner().getText().equalsIgnoreCase(fullName),"Account name does not match");
 

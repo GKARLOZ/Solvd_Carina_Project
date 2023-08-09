@@ -1,4 +1,4 @@
 {
-  "message": "Testing Post using json in Carin Framework"
+  "message": "Using Carina Framework: ${random}"
 }
 

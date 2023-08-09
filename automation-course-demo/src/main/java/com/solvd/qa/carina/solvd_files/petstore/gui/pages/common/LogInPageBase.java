@@ -14,8 +14,8 @@ public abstract class LogInPageBase extends AbstractPage {
     }
     public abstract void putEmailTextField(String email);
     public abstract void putPasswordTextField(String password);
-    public abstract AccountPage clickSignIn();
-    public abstract CreateAccountPage clickCreateAccount();
+    public abstract AccountPageBase clickSignIn();
+    public abstract CreateAccountPageBase clickCreateAccount();
     public abstract ExtendedWebElement getTitleOfPage();
 
 }

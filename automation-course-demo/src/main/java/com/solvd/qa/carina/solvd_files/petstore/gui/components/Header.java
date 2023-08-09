@@ -1,5 +1,9 @@
 package com.solvd.qa.carina.solvd_files.petstore.gui.components;
 
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.AccountPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.LogInPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.MultipleProductsPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.ProductPageBase;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop.AccountPage;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop.LogInPage;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop.MultipleProductsPage;
@@ -58,17 +62,17 @@ public class Header extends HeaderBase {
         waitUntil(ExpectedConditions.elementToBeClickable(exitCart.getElement()), 20000);
         exitCart.click();
     }
-    public ProductPage selectFromSearchResults(int item){
+    public ProductPageBase selectFromSearchResults(int item){
         waitUntil(ExpectedConditions.elementToBeClickable(firstSearchResult.getElement()),10000);
         listOfSearchResults.get(item).click();
         return new ProductPage(driver);
     }
-    public LogInPage openLogin(){
+    public LogInPageBase openLogin(){
         login.click();
         return new LogInPage(driver);
     }
 
-    public AccountPage openAccountPage(){
+    public AccountPageBase openAccountPage(){
         accountPage.click();
         return new AccountPage(driver);
     }
@@ -76,7 +80,7 @@ public class Header extends HeaderBase {
         menuButton.click();
     }
 
-    public MultipleProductsPage clickCategory(String category) {
+    public MultipleProductsPageBase clickCategory(String category) {
         LOGGER.info("selecting " + category + " category >>>");
         for (ExtendedWebElement cl : categoryLinks) {
             String currentCategory = cl.getText();
@@ -91,7 +95,7 @@ public class Header extends HeaderBase {
         return null;
     }
 
-    public MultipleProductsPage clickInnerCategory(String category) {
+    public MultipleProductsPageBase clickInnerCategory(String category) {
 
         LOGGER.info("selecting " + category + " category >>>");
         for (ExtendedWebElement cl : innerCategoryLinks) {

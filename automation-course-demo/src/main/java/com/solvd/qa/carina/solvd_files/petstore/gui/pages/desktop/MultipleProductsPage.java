@@ -3,6 +3,7 @@ package com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop;
 import com.solvd.qa.carina.solvd_files.petstore.gui.components.Header;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.MultipleProductsPageBase;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.PetHomePageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.ProductPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.By;
@@ -39,7 +40,7 @@ public class MultipleProductsPage extends MultipleProductsPageBase {
         return header;
     }
 
-    public ProductPage selectProduct(String product) {
+    public ProductPageBase selectProduct(String product) {
         ExtendedWebElement expand;
         String element;
 

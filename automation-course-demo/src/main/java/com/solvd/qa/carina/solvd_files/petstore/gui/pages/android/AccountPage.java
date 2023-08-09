@@ -1,9 +1,10 @@
-package com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android;
+package com.solvd.qa.carina.solvd_files.petstore.gui.pages.android;
 
 
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.components.Header;
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.AccountPageBase;
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.PetHomePageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.components.Header;
+import com.solvd.qa.carina.solvd_files.petstore.gui.components.HeaderBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.components.MobileHeader;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.AccountPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.WebDriver;
@@ -16,13 +17,13 @@ public class AccountPage extends AccountPageBase {
     @FindBy(xpath = "//p[contains(@class,'h5')]")
     private ExtendedWebElement accountOwner;
     @FindBy(xpath = "//header[contains(@class,'site-header')]")
-    private Header header;
+    private MobileHeader header;
 
     public AccountPage(WebDriver driver){
         super(driver);
     }
 
-    @Override
+
     public ExtendedWebElement getTitleOfPage() {
         return null;
     }
@@ -31,7 +32,7 @@ public class AccountPage extends AccountPageBase {
         return accountOwner;
     }
 
-    public Header getHeader(){
+    public HeaderBase getHeader(){
         return header;
     }
 

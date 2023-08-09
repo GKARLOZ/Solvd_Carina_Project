@@ -30,10 +30,10 @@ public class ShopByCategoryPage extends ShopByCategoryPageBase {
     @FindBy(xpath = "//div[@class=\"s-item__info clearfix\"]//span[@role=\"heading\"]")
     private List<ExtendedWebElement> itemList;
 
-   @FindBy(xpath="//*[@id=\"s0-53-17-0-1-2-6-1-8[3]-0-textrange-endParamValue-textbox\"]")
+   @FindBy(xpath="//input[contains{@class,'textbox__control'}]")
    private ExtendedWebElement max;
 
-   @FindBy(xpath = "//*[@id=\"s0-53-17-0-1-2-6-1-8[3]-0-textrange\"]/div/div[3]/button")
+   @FindBy(xpath = "//button[@aria-label='Submit price range']")
    private ExtendedWebElement button;
 
 

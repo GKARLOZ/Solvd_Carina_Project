@@ -1,10 +1,8 @@
-package com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android;
+package com.solvd.qa.carina.solvd_files.petstore.gui.pages.android;
 
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.CreateAccountPageBase;
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.common.PetHomePageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.CreateAccountPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 @DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = CreateAccountPageBase.class)

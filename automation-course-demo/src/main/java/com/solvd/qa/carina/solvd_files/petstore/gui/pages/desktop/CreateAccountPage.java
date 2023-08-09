@@ -42,7 +42,7 @@ public class CreateAccountPage extends CreateAccountPageBase {
         passwordTextField.type(password);
     }
     @Override
-    public PetHomePage clickCreateButton(){
+    public PetHomePageBase clickCreateButton(){
         createButton.click();
         return new PetHomePage(driver);
 

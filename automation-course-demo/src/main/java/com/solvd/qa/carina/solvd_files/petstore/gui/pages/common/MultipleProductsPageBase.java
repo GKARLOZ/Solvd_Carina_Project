@@ -1,6 +1,7 @@
 package com.solvd.qa.carina.solvd_files.petstore.gui.pages.common;
 
 import com.solvd.qa.carina.solvd_files.petstore.gui.components.Header;
+import com.solvd.qa.carina.solvd_files.petstore.gui.components.HeaderBase;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop.ProductPage;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
@@ -15,8 +16,8 @@ public abstract class MultipleProductsPageBase extends AbstractPage {
     }
     public abstract List<ExtendedWebElement> getProductList();
     public abstract void printAllProductTitle();
-    public abstract Header getHeader();
-    public abstract ProductPage selectProduct(String product);
+    public abstract HeaderBase getHeader();
+    public abstract ProductPageBase selectProduct(String product);
 
 
 

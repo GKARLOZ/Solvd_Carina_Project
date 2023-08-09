@@ -1,11 +1,13 @@
-package com.solvd.qa.carina.solvd_files.petstore.mobile.gui.components;
+package com.solvd.qa.carina.solvd_files.petstore.gui.components;
 
 
 
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android.AccountPage;
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android.LogInPage;
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android.MultipleProductsPage;
-import com.solvd.qa.carina.solvd_files.petstore.mobile.gui.pages.android.ProductPage;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.android.AccountPage;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.android.LogInPage;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.android.MultipleProductsPage;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.android.ProductPage;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.MultipleProductsPageBase;
+import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.ProductPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.By;
@@ -20,7 +22,7 @@ import java.lang.invoke.MethodHandles;
 import java.util.List;
 
 @DeviceType(pageType = DeviceType.Type.ANDROID_PHONE, parentClass = HeaderBase.class)
-public class Header extends HeaderBase {
+public class MobileHeader extends HeaderBase {
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
     @FindBy(xpath = "//button[contains(@aria-controls,'NavDrawer')]")
     private ExtendedWebElement menuButton;
@@ -46,10 +48,10 @@ public class Header extends HeaderBase {
     private ExtendedWebElement firstSearchResult;
 
 
-    public Header(WebDriver driver) {
+    public MobileHeader(WebDriver driver) {
         super(driver);
     }
-    public Header(WebDriver driver, SearchContext searchContext) {
+    public MobileHeader(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
     }
 
@@ -60,7 +62,7 @@ public class Header extends HeaderBase {
         waitUntil(ExpectedConditions.elementToBeClickable(exitCart.getElement()), 20000);
         exitCart.click();
     }
-    public ProductPage selectFromSearchResults(int item){
+    public ProductPageBase selectFromSearchResults(int item){
         waitUntil(ExpectedConditions.elementToBeClickable(firstSearchResult.getElement()),10000);
         listOfSearchResults.get(item).click();
         return new ProductPage(driver);
@@ -78,7 +80,7 @@ public class Header extends HeaderBase {
         menuButton.click();
     }
 
-    public MultipleProductsPage clickCategory(String category) {
+    public MultipleProductsPageBase clickCategory(String category) {
         LOGGER.info("selecting " + category + " category >>>");
         for (ExtendedWebElement cl : categoryLinks) {
             String currentCategory = cl.getText();
@@ -93,7 +95,7 @@ public class Header extends HeaderBase {
         return null;
     }
 
-    public MultipleProductsPage clickInnerCategory(String category) {
+    public MultipleProductsPageBase clickInnerCategory(String category) {
 
         LOGGER.info("selecting " + category + " category >>>");
         for (ExtendedWebElement cl : innerCategoryLinks) {

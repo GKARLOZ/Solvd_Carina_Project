@@ -1,4 +1,4 @@
-package com.solvd.qa.carina.solvd_test.web;
+package com.solvd.qa.carina.solvd_test.PetStoreWebTests;
 
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.CreateAccountPageBase;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.LogInPageBase;

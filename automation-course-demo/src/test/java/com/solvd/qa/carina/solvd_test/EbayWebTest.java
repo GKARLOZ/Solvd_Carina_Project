@@ -1,4 +1,4 @@
-package com.solvd.qa.carina.solvd_test.web;
+package com.solvd.qa.carina.solvd_test;
 
 import com.solvd.qa.carina.solvd_files.ebay.gui.common.GSMPageBase;
 import com.solvd.qa.carina.solvd_files.ebay.gui.common.HomePageBase;

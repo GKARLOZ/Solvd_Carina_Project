@@ -1,7 +1,8 @@
-package com.solvd.qa.carina.solvd_test.web;
+package com.solvd.qa.carina.solvd_test.PetStoreWebTests;
+
+
 
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.*;
-import com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop.*;
 import com.zebrunner.carina.core.IAbstractTest;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -10,7 +11,7 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.UUID;
 
-public class DesktopWebTest implements IPick, IOpenAccount,IAbstractTest {
+public class AndroidWebTest implements IPick, IOpenAccount,IAbstractTest {
 
     @Test(dataProvider ="DP1")
     public void TestCartItems(String expandCate, String category, String item ){
@@ -137,5 +138,7 @@ public class DesktopWebTest implements IPick, IOpenAccount,IAbstractTest {
         };
 
     }
+
+
 
 }

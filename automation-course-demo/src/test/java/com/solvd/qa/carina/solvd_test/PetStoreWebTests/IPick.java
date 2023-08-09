@@ -1,10 +1,8 @@
-package com.solvd.qa.carina.solvd_test.web;
+package com.solvd.qa.carina.solvd_test.PetStoreWebTests;
 
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.MultipleProductsPageBase;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.PetHomePageBase;
 import com.solvd.qa.carina.solvd_files.petstore.gui.pages.common.ProductPageBase;
-import com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop.MultipleProductsPage;
-import com.solvd.qa.carina.solvd_files.petstore.gui.pages.desktop.ProductPage;
 import com.zebrunner.carina.core.IAbstractTest;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;

@@ -52,9 +52,6 @@ public class ShopByCategoryPage extends ShopByCategoryPageBase {
 
             numberPrice = price.getText().replaceAll("\\$|\\,","");
             priceOfProduct = Double.parseDouble(numberPrice);
-            System.out.println(numberPrice + "@@@@@@@@@@@@");
-
-
 
         }
         selectedProduct.click();

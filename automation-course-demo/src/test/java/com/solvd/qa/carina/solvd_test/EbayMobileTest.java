@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class EbayMobileTest implements IAbstractTest, IMobileUtils {
 
     @Test(dataProvider = "DP1")
-    public void TestA(String searchProduct, double idealPrice){
+    public void TestSearchResults(String searchProduct, double idealPrice){
 
         HomePageBase homePage = initPage(getDriver(),HomePageBase.class);
         homePage.closePopUp().clickIfPresent();

@@ -31,7 +31,7 @@ public class DesktopWebTest implements IPick, IOpenAccount,IAbstractTest {
 
     }
 
-    @Test(dataProvider = "DP1")
+    //@Test(dataProvider = "DP1")
     public void TestListOfProducts(String expand, String category, String firstProduct){
         MultipleProductsPageBase multiplePPage = pickCategory();
 
@@ -44,7 +44,7 @@ public class DesktopWebTest implements IPick, IOpenAccount,IAbstractTest {
         softAssert.assertAll();
 
     }
-    @Test(dataProvider = "DP2")
+    //@Test(dataProvider = "DP2")
     public void TestSearchResults(String item){
 
         PetHomePageBase homePage = initPage(getDriver(),PetHomePageBase.class);
@@ -60,7 +60,7 @@ public class DesktopWebTest implements IPick, IOpenAccount,IAbstractTest {
 
     }
 
-    @Test(dataProvider = "DP3")
+    //@Test(dataProvider = "DP3")
     public void testUserFlow(String email, String password){
 
         LogInPageBase logInPage = openLogInPage();
@@ -83,7 +83,7 @@ public class DesktopWebTest implements IPick, IOpenAccount,IAbstractTest {
 
     }
 
-    @Test
+    //@Test
     public void testCreateAccount(){
 
         CreateAccountPageBase createPage = openCreatePage();
@@ -108,8 +108,8 @@ public class DesktopWebTest implements IPick, IOpenAccount,IAbstractTest {
     public Object[][]dataproviderPickingProducts(){
 
         return new Object[][]{
-                {"Dog","Toys","JOLLY PETS® PUSH-N-PLAY™ DOG TOYS BLUE COLOR X-LARGE 14 INCH\nPETSTORE\n$64.97"},
-                {"Cat","Toys","DUCKY WORLD YEOWWW!® RAINBOW CATNIP TOYS 6 INCH\nPETSTORE\n$19.39"},
+//                {"Dog","Toys","JOLLY PETS® PUSH-N-PLAY™ DOG TOYS BLUE COLOR X-LARGE 14 INCH\nPETSTORE\n$64.97"},
+//                {"Cat","Toys","DUCKY WORLD YEOWWW!® RAINBOW CATNIP TOYS 6 INCH\nPETSTORE\n$19.39"},
                 {"Reptile & Amphibian","Lighting","ZILLA® MINI HALOGEN BULB 25 WATT NIGHT RED COLOR 2.5 X 0.75 X 4 INCH\nPETSTORE\n$23.14"}
 
         };

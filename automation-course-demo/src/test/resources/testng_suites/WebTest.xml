@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyFirstTestSuite">
+    <test name="MyFirstTest">
+        <classes>
+            <class name="com.solvd.qa.carina.solvd_test.PetStoreWebTests.DesktopWebTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyFirstTestParallelSuite" parallel="classes">
+    <test thread-count="4" name="MyFirstTestParallel">
+        <classes>
+            <class name="com.solvd.qa.carina.solvd_test.Setup_DockerGrid"/>
+            <class name="com.solvd.qa.carina.solvd_test.PetStoreWebTests.DesktopChromeWebTest"/>
+            <class name="com.solvd.qa.carina.solvd_test.PetStoreWebTests.DesktopFireFoxWebTest"/>
+        </classes>
+    </test>
+</suite>

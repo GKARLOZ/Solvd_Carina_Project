@@ -13,6 +13,10 @@ This project provides a demo of API, Web and Mobile test using the Carina Framew
  * Detailed testing on mobile applications, ensuring compatibility with various Android devices and versions.
 * Appium Inspector for inspecting mobile app elements and guaranteeing smooth user experiences on mobile platforms.
 
+## 4. Parallel testing using Selenium Grid with Docker:
+* Executing the mvn test command executes the test suit with parallel testing.
+* The bat files sets up the selenium grid using containers and removes the containers as well. 
+
 ## Information:
 * Carina Framework: https://zebrunner.github.io/carina/
 

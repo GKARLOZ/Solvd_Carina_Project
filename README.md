@@ -17,7 +17,7 @@ This project provides a demo of API, Web and Mobile test using the Carina Framew
 * Executing the mvn test command executes the test suit with parallel testing.
 * The bat files sets up the selenium grid using containers and removes the containers as well.
 
-### Jenkins (CI/CD) 
+### Jenkins (CI) 
 * Thanks to bat files and docker compose file, it is easy to setup this project on Jenkins
 * Set up your Jenkins jobs to clone the repository and run the "mvn clean test" command.
 
